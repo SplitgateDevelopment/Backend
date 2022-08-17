@@ -21,7 +21,7 @@
   
   • Set proxy in the settings app to `127.0.0.1:5005`
   
-  • Run proxy.py via the `mitmdump -s proxy.py -k` **(mitmproxy is required)**
+  • Run proxy.py via the `mitmdump -s proxy.py -k` **([mitmproxy](https://mitmproxy.org/) is required)**
   
   • Run the server via the `node .` command
   
