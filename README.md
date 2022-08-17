@@ -1,6 +1,8 @@
 # Backend
 📶 Custom backend for Splitgate made in TypeScipt
 
+**⚠️ This repo is still in development, therefore you may run in some errors**
+
 ## Installation
   • Download and install [Node.js](https://nodejs.org/en/download/)
   
