@@ -15,7 +15,7 @@
 ## Usage
   • Fill the values in config.ts
   
-  • Build via the `npx tsc` tsc command
+  • Build via the `npx tsc` command
   
   • Make sure every file in `/assets/json/` is in `/dist/assets/json`, if not copy them
   
