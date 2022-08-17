@@ -1,6 +1,15 @@
 # Backend
 📶 Custom backend for Splitgate made in TypeScipt
 
+## Installation
+  • Download and install [Node.js](https://nodejs.org/en/download/)
+  
+  • Download and extract the repo or git clone it
+  
+  • Open the terminal and go into the unzipped directory
+  
+  • Type `npm install` and wait
+  
 ## Usage
   • Fill the values in config.ts
   
