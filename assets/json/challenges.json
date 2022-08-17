@@ -1,0 +1,4517 @@
+{
+  "daily": [
+    {
+      "id": 0,
+      "groupId": 0,
+      "excludedPlaylists": [],
+      "displayName": "Inflict {0} Damage",
+      "targetValue": 1000,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1,
+      "groupId": 0,
+      "excludedPlaylists": [],
+      "displayName": "Destroy 5 Enemy Portals",
+      "targetValue": 5,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 2,
+      "groupId": 0,
+      "excludedPlaylists": [],
+      "displayName": "Go Through 5 Enemy Portals",
+      "targetValue": 5,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 3,
+      "groupId": 0,
+      "excludedPlaylists": [],
+      "displayName": "Go Through 5 Friendly Portals",
+      "targetValue": 5,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 4,
+      "groupId": 0,
+      "excludedPlaylists": [],
+      "displayName": "Play 3 Matches",
+      "targetValue": 3,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 5,
+      "groupId": 0,
+      "excludedPlaylists": [],
+      "displayName": "Get 5 Kills",
+      "targetValue": 5,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 6,
+      "groupId": 0,
+      "excludedPlaylists": [],
+      "displayName": "Get {0} {0}|plural(one=Melee Kill, other=Melee Kills)",
+      "targetValue": 2,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 7,
+      "groupId": 0,
+      "excludedPlaylists": [],
+      "displayName": "Get {0} {0}|plural(one=Kill, other=Kills) Through Portals",
+      "targetValue": 2,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 8,
+      "groupId": 0,
+      "excludedPlaylists": [],
+      "displayName": "Get {0} {0}|plural(one=Headshot Kill, other=Headshot Kills)",
+      "targetValue": 2,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 9,
+      "groupId": 0,
+      "excludedPlaylists": [],
+      "displayName": "Get 500 Distance Portaled",
+      "targetValue": 500,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 10,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get 5 Kills with the Assault Rifle",
+      "targetValue": 5,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 11,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get 5 Kills with the Carbine",
+      "targetValue": 5,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 12,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Inflict 300 Damage with the Plasma Rifle",
+      "targetValue": 300,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 13,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Inflict 300 Damage with the SMG",
+      "targetValue": 300,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 14,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get 5 Kills with the Battle Rifle",
+      "targetValue": 5,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 15,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get 3 Kills with the Sniper Rifle",
+      "targetValue": 3,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 16,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get 3 Kills with the Shotgun",
+      "targetValue": 3,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 17,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get 2 Kills with the Railgun",
+      "targetValue": 2,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 18,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get 2 Kills with the BFB",
+      "targetValue": 2,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 19,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get 2 Kills with the Rocket Launcher",
+      "targetValue": 2,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 20,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get a Double Kill",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 21,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get 2 Revenge Kills",
+      "targetValue": 2,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 22,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get 1 First Blood Kill",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 23,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Inflict {0} Damage",
+      "targetValue": 1500,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 24,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Win 1 Match",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 25,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Get a Killing Spree",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 26,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Get a Positive KDA in a match",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 27,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Get 10 Kills in Team Deathmatch",
+      "targetValue": 10,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 28,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Get 10 Kills in Team Fiesta",
+      "targetValue": 10,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 29,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Get 10 Kills in Sniper Frenzy",
+      "targetValue": 10,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 30,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Get a Kill with 5 Different Weapons",
+      "targetValue": 5,
+      "reward": { "type": "XP", "quantity": 3000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1000,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Complete All Daily Challenges to earn a Reward",
+      "targetValue": 3,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    }
+  ],
+  "weekly": [
+    {
+      "id": 100,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get {0} {0}|plural(one=Kill, other=Kills)",
+      "targetValue": 50,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 101,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Play 10 TDM matches",
+      "targetValue": 10,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 102,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Win 5 Matches",
+      "targetValue": 5,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 103,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Inflict 5000 damage with the AR",
+      "targetValue": 5000,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 104,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Shut down 20 enemy portals",
+      "targetValue": 20,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 105,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Complete the Easy Abyss race",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 199,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Complete All Weekly Challenges to earn a Reward",
+      "targetValue": 6,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 200,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Get 10 First Blood kills",
+      "targetValue": 10,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 201,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Play 5 Team Rumble matches",
+      "targetValue": 5,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 202,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Win 2 Matches of Team Fiesta",
+      "targetValue": 2,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 203,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Get 30 kills with the Batte Rifle",
+      "targetValue": 30,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 204,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Get 3000 portal distance travel",
+      "targetValue": 3000,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 205,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Complete the Easy Highwind race",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 299,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Complete All Weekly Challenges to earn a Reward",
+      "targetValue": 6,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 300,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Get 25 Headshots",
+      "targetValue": 25,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 301,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Score 500 points in Oddball",
+      "targetValue": 500,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 302,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Get 20 kills in Sniper Frenzy",
+      "targetValue": 20,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 303,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Get 10 headshots with the Sniper Rifle",
+      "targetValue": 10,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 304,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Get the most kills on your team 3 times",
+      "targetValue": 3,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 305,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Complete the Easy Pantheon race",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 399,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Complete All Weekly Challenges to earn a Reward",
+      "targetValue": 6,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 400,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Get 10 Double Kills",
+      "targetValue": 10,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 401,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Inflict 3000 damage in Team Swat",
+      "targetValue": 3000,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 402,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Win 3 matches of FFA Brawl",
+      "targetValue": 3,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 403,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Get 20 kills with the BFB",
+      "targetValue": 20,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 404,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Go through 30 enemy portals",
+      "targetValue": 30,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 405,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Complete the Easy Stadium race",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 499,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Complete All Weekly Challenges to earn a Reward",
+      "targetValue": 6,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 500,
+      "groupId": 5,
+      "excludedPlaylists": [],
+      "displayName": "Get 50 Kills with the Assault Rifle",
+      "targetValue": 50,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 501,
+      "groupId": 5,
+      "excludedPlaylists": [],
+      "displayName": "Inflict 7500 damage in Team Objective",
+      "targetValue": 7500,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 502,
+      "groupId": 5,
+      "excludedPlaylists": [],
+      "displayName": "Play 15 Matches",
+      "targetValue": 15,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 503,
+      "groupId": 5,
+      "excludedPlaylists": [],
+      "displayName": "Get 20 Kills with the Railgun",
+      "targetValue": 20,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 504,
+      "groupId": 5,
+      "excludedPlaylists": [],
+      "displayName": "Score highest on your team 3 times",
+      "targetValue": 3,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 505,
+      "groupId": 5,
+      "excludedPlaylists": [],
+      "displayName": "Complete the Medium Abyss race",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 599,
+      "groupId": 5,
+      "excludedPlaylists": [],
+      "displayName": "Complete All Weekly Challenges to earn a Reward",
+      "targetValue": 6,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 600,
+      "groupId": 6,
+      "excludedPlaylists": [],
+      "displayName": "Get 20 Kills with the Shotgun",
+      "targetValue": 20,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 601,
+      "groupId": 6,
+      "excludedPlaylists": [],
+      "displayName": "Get 50 Kills in TDM",
+      "targetValue": 50,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 602,
+      "groupId": 6,
+      "excludedPlaylists": [],
+      "displayName": "Win 5 Matches of TDM",
+      "targetValue": 5,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 603,
+      "groupId": 6,
+      "excludedPlaylists": [],
+      "displayName": "Inflict 4000 damage with the Plasma Rifle",
+      "targetValue": 4000,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 604,
+      "groupId": 6,
+      "excludedPlaylists": [],
+      "displayName": "Win a Match with the Fewest Deaths",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 605,
+      "groupId": 6,
+      "excludedPlaylists": [],
+      "displayName": "Complete the Medium Abyss race",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 699,
+      "groupId": 6,
+      "excludedPlaylists": [],
+      "displayName": "Complete All Weekly Challenges to earn a Reward",
+      "targetValue": 6,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 700,
+      "groupId": 7,
+      "excludedPlaylists": [],
+      "displayName": "Get 10 Melee kills",
+      "targetValue": 10,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 701,
+      "groupId": 7,
+      "excludedPlaylists": [],
+      "displayName": "Play 10 matches of FFA Brawl",
+      "targetValue": 10,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 702,
+      "groupId": 7,
+      "excludedPlaylists": [],
+      "displayName": "Win 1 Gun Game",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 703,
+      "groupId": 7,
+      "excludedPlaylists": [],
+      "displayName": "Get 20 kills with the Rocket Launcher",
+      "targetValue": 20,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 704,
+      "groupId": 7,
+      "excludedPlaylists": [],
+      "displayName": "Go Through 50 Friendly Portals",
+      "targetValue": 50,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 705,
+      "groupId": 7,
+      "excludedPlaylists": [],
+      "displayName": "Complete the Medium Pantheon race",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 799,
+      "groupId": 7,
+      "excludedPlaylists": [],
+      "displayName": "Complete All Weekly Challenges to earn a Reward",
+      "targetValue": 6,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 800,
+      "groupId": 8,
+      "excludedPlaylists": [],
+      "displayName": "Get 15 headshots with a Sniper Rifle",
+      "targetValue": 15,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 801,
+      "groupId": 8,
+      "excludedPlaylists": [],
+      "displayName": "Win 5 matches in Search and Survive",
+      "targetValue": 5,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 802,
+      "groupId": 8,
+      "excludedPlaylists": [],
+      "displayName": "Play 10 matches of Sniper Frenzy",
+      "targetValue": 10,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 803,
+      "groupId": 8,
+      "excludedPlaylists": [],
+      "displayName": "Get 40 kills with the Carbine",
+      "targetValue": 40,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 804,
+      "groupId": 8,
+      "excludedPlaylists": [],
+      "displayName": "Win a match with the Highest Score",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 805,
+      "groupId": 8,
+      "excludedPlaylists": [],
+      "displayName": "Complete the Medium Stadium race",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 899,
+      "groupId": 8,
+      "excludedPlaylists": [],
+      "displayName": "Complete All Weekly Challenges to earn a Reward",
+      "targetValue": 6,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 900,
+      "groupId": 9,
+      "excludedPlaylists": [],
+      "displayName": "Get 3 Triple Kills",
+      "targetValue": 3,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 901,
+      "groupId": 9,
+      "excludedPlaylists": [],
+      "displayName": "Inflict 7000 damage in Team Objective",
+      "targetValue": 7000,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 902,
+      "groupId": 9,
+      "excludedPlaylists": [],
+      "displayName": "Win 5 matches of Team SWAT",
+      "targetValue": 5,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 903,
+      "groupId": 9,
+      "excludedPlaylists": [],
+      "displayName": "Get 20 kills with the Pistol",
+      "targetValue": 20,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 904,
+      "groupId": 9,
+      "excludedPlaylists": [],
+      "displayName": "Get a portal kill",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 905,
+      "groupId": 9,
+      "excludedPlaylists": [],
+      "displayName": "Complete the Hard Abyss race",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 999,
+      "groupId": 9,
+      "excludedPlaylists": [],
+      "displayName": "Complete All Weekly Challenges to earn a Reward",
+      "targetValue": 6,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1000,
+      "groupId": 10,
+      "excludedPlaylists": [],
+      "displayName": "Inflict 4000 damage with the AR",
+      "targetValue": 4000,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1001,
+      "groupId": 10,
+      "excludedPlaylists": [],
+      "displayName": "Get a killing spree in TDM",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1002,
+      "groupId": 10,
+      "excludedPlaylists": [],
+      "displayName": "Win 10 rounds in Takedown",
+      "targetValue": 10,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1003,
+      "groupId": 10,
+      "excludedPlaylists": [],
+      "displayName": "Get 30 kills with the SMG",
+      "targetValue": 30,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1004,
+      "groupId": 10,
+      "excludedPlaylists": [],
+      "displayName": "Complete match with the fewest deaths",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1005,
+      "groupId": 10,
+      "excludedPlaylists": [],
+      "displayName": "Complete the Hard Highwind race",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1099,
+      "groupId": 10,
+      "excludedPlaylists": [],
+      "displayName": "Complete All Weekly Challenges to earn a Reward",
+      "targetValue": 6,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1100,
+      "groupId": 11,
+      "excludedPlaylists": [],
+      "displayName": "Get 10 Double Kills",
+      "targetValue": 10,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1101,
+      "groupId": 11,
+      "excludedPlaylists": [],
+      "displayName": "Play 10 matches of FFA Brawl",
+      "targetValue": 10,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1102,
+      "groupId": 11,
+      "excludedPlaylists": [],
+      "displayName": "Win 5 Matches",
+      "targetValue": 5,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1103,
+      "groupId": 11,
+      "excludedPlaylists": [],
+      "displayName": "Get 20 kills with the Shotgun",
+      "targetValue": 20,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1104,
+      "groupId": 11,
+      "excludedPlaylists": [],
+      "displayName": "Win a match with the most kills",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1105,
+      "groupId": 11,
+      "excludedPlaylists": [],
+      "displayName": "Complete the Hard Pantheon race",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1199,
+      "groupId": 11,
+      "excludedPlaylists": [],
+      "displayName": "Complete All Weekly Challenges to earn a Reward",
+      "targetValue": 6,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1200,
+      "groupId": 12,
+      "excludedPlaylists": [],
+      "displayName": "Get 20 Headshots",
+      "targetValue": 20,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1201,
+      "groupId": 12,
+      "excludedPlaylists": [],
+      "displayName": "Play 10 matches of TDM",
+      "targetValue": 10,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1202,
+      "groupId": 12,
+      "excludedPlaylists": [],
+      "displayName": "Win 3 Matches of Team Objective",
+      "targetValue": 3,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1203,
+      "groupId": 12,
+      "excludedPlaylists": [],
+      "displayName": "Get 50 kills with the Battle Rifle",
+      "targetValue": 50,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1204,
+      "groupId": 12,
+      "excludedPlaylists": [],
+      "displayName": "Shut down 20 enemy portals",
+      "targetValue": 20,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1205,
+      "groupId": 12,
+      "excludedPlaylists": [],
+      "displayName": "Complete the Hard Stadium race",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 1299,
+      "groupId": 12,
+      "excludedPlaylists": [],
+      "displayName": "Complete All Weekly Challenges to earn a Reward",
+      "targetValue": 6,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    }
+  ],
+  "season": [
+    {
+      "id": 100,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Reach Pro level 1",
+      "targetValue": 1,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 101,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Play 300 Matches",
+      "targetValue": 300,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 102,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get 3000 Kills",
+      "targetValue": 3000,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 103,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Unlock a badge",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 104,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Inflict 150k Damage",
+      "targetValue": 150000,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 105,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get 200 Headshots",
+      "targetValue": 200,
+      "reward": { "type": "XP", "quantity": 20000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 106,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Win 30 matches in TDM",
+      "targetValue": 30,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 107,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Play 50 Ranked Matches",
+      "targetValue": 50,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 108,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Shut down 100 enemy portals",
+      "targetValue": 100,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 109,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get a Collaterall Kill",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 110,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get 50 Revenge kills",
+      "targetValue": 50,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 111,
+      "groupId": 1,
+      "excludedPlaylists": [],
+      "displayName": "Get 300 kills with the AR",
+      "targetValue": 300,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 200,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Get 75 BFB Kills",
+      "targetValue": 75,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 201,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Play 30 matches in the Featured Playlist",
+      "targetValue": 30,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 202,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Get 100 kills with the Plasma Rifle",
+      "targetValue": 100,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 203,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Get {0} {0}|plural(one=Headshot Kill, other=Headshot Kills)",
+      "targetValue": 150,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 204,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Win 75 matches",
+      "targetValue": 75,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 205,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Have a positive KD/A in 10 matches",
+      "targetValue": 10,
+      "reward": { "type": "XP", "quantity": 20000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 206,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Go through 100 friendly portals",
+      "targetValue": 100,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 207,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Win 50 rounds in Takedown",
+      "targetValue": 50,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 208,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Unlock 3 badges",
+      "targetValue": 3,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 209,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Win a match in 7 different playlists",
+      "targetValue": 7,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 210,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Get a Quad Kill",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 211,
+      "groupId": 2,
+      "excludedPlaylists": [],
+      "displayName": "Win a match with the Highest Score and Most Kills",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 300,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Win a Match on 10 Different Maps",
+      "targetValue": 10,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 301,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Play 20 matches of Team SWAT",
+      "targetValue": 20,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 302,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Get 30 Double Kills",
+      "targetValue": 30,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 303,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Get 200 Kills with the AR",
+      "targetValue": 200,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 304,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Get 50 Kills Through Portals",
+      "targetValue": 50,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 305,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Get 100 Assist Kills",
+      "targetValue": 100,
+      "reward": { "type": "XP", "quantity": 20000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 306,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Get 100 kills with the Battle Rifle",
+      "targetValue": 100,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 307,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Reach Pro level 3",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 308,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Get 30 kills with the Railgun",
+      "targetValue": 30,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 309,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Get the Most Kills on your team in 10 Matches",
+      "targetValue": 10,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 310,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Win a match of 10 different game modes",
+      "targetValue": 10,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 311,
+      "groupId": 3,
+      "excludedPlaylists": [],
+      "displayName": "Get a Collaterall Kill",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 400,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Play 10 Matches in 1 Day",
+      "targetValue": 10,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 401,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Get 10 King Slayer kills",
+      "targetValue": 10,
+      "reward": { "type": "XP", "quantity": 10000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 402,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Go through 30 enemy portals",
+      "targetValue": 30,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 403,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Get 30 kills with the Pistol",
+      "targetValue": 30,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 404,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Play 15 matches of Sniper Frenzy",
+      "targetValue": 15,
+      "reward": { "type": "DROP", "quantity": 1 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 405,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Get 5 Triple Kills",
+      "targetValue": 5,
+      "reward": { "type": "XP", "quantity": 20000 },
+      "isPremium": false,
+      "isExcluded": false
+    },
+    {
+      "id": 406,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Win 3 matches of FFA Brawl",
+      "targetValue": 3,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 407,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Get the Highest Score on your team in 10 Matches",
+      "targetValue": 10,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 408,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Get 5 Killection Agency medals",
+      "targetValue": 5,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 409,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Inflict 30k damage",
+      "targetValue": 30000,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 410,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Get 20 kills with the BFB",
+      "targetValue": 20,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 411,
+      "groupId": 4,
+      "excludedPlaylists": [],
+      "displayName": "Finish the Battle Pass",
+      "targetValue": 1,
+      "reward": { "type": "XP", "quantity": 15000 },
+      "isPremium": true,
+      "isExcluded": false
+    },
+    {
+      "id": 1000,
+      "groupId": 0,
+      "excludedPlaylists": [],
+      "displayName": "Complete All Free Challenges to earn the Season Reward",
+      "targetValue": 24,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Portal-Portal_Holy"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "isExcluded": false
+    }
+  ],
+  "weapon": [
+    {
+      "id": 100,
+      "groupId": 0,
+      "groupName": "assaultRifle",
+      "excludedPlaylists": [],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "AssaultRifle-AssaultRifle_Void"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 101,
+      "groupId": 0,
+      "groupName": "assaultRifle",
+      "excludedPlaylists": [],
+      "targetValue": 250,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "AssaultRifle-AssaultRifle_Daisy"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 102,
+      "groupId": 0,
+      "groupName": "assaultRifle",
+      "excludedPlaylists": [],
+      "targetValue": 1000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "AssaultRifle-AssaultRifle_Sunflower"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 103,
+      "groupId": 0,
+      "groupName": "assaultRifle",
+      "excludedPlaylists": [],
+      "targetValue": 5000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "AssaultRifle-AssaultRifle_Low"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 104,
+      "groupId": 0,
+      "groupName": "assaultRifle",
+      "excludedPlaylists": [],
+      "targetValue": 15000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "AssaultRifle-AssaultRifle_Jugger"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 105,
+      "groupId": 0,
+      "groupName": "assaultRifle",
+      "excludedPlaylists": [],
+      "targetValue": 50000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "AssaultRifle-AssaultRifle_Juggernaut"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 106,
+      "groupId": 0,
+      "groupName": "assaultRifle",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "AssaultRifle-AssaultRifle_High"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "headshotKills",
+      "isExcluded": false
+    },
+    {
+      "id": 107,
+      "groupId": 0,
+      "groupName": "assaultRifle",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "AssaultRifle-AssaultRifle_Mason"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "headshotKills",
+      "isExcluded": false
+    },
+    {
+      "id": 108,
+      "groupId": 0,
+      "groupName": "assaultRifle",
+      "excludedPlaylists": [],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "AssaultRifle-AssaultRifle_Cheese"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 109,
+      "groupId": 0,
+      "groupName": "assaultRifle",
+      "excludedPlaylists": [],
+      "targetValue": 150,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "AssaultRifle-AssaultRifle_SoftPurple"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 110,
+      "groupId": 0,
+      "groupName": "assaultRifle",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "AssaultRifle-AssaultRifle_Scrap"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 111,
+      "groupId": 0,
+      "groupName": "assaultRifle",
+      "excludedPlaylists": [],
+      "targetValue": 200,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "AssaultRifle-AssaultRifle_Black"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 112,
+      "groupId": 0,
+      "groupName": "assaultRifle",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "AssaultRifle-AssaultRifle_Bear"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsInSingleGame",
+      "isExcluded": false
+    },
+    {
+      "id": 113,
+      "groupId": 0,
+      "groupName": "assaultRifle",
+      "excludedPlaylists": [],
+      "targetValue": 13,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "AssaultRifle-AssaultRifle_Gold"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "all",
+      "isExcluded": false
+    },
+    {
+      "id": 200,
+      "groupId": 15,
+      "groupName": "bat",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "Bat-Bat_Void" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 201,
+      "groupId": 15,
+      "groupName": "bat",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "Bat-Bat_Daisy" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 202,
+      "groupId": 15,
+      "groupName": "bat",
+      "excludedPlaylists": [],
+      "targetValue": 500,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "Bat-Bat_Sunflower" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 203,
+      "groupId": 15,
+      "groupName": "bat",
+      "excludedPlaylists": [],
+      "targetValue": 2500,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "Bat-Bat_Low" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 204,
+      "groupId": 15,
+      "groupName": "bat",
+      "excludedPlaylists": [],
+      "targetValue": 10000,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "Bat-Bat_Jugger" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 205,
+      "groupId": 15,
+      "groupName": "bat",
+      "excludedPlaylists": [],
+      "targetValue": 25000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Bat-Bat_Juggernaut"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 206,
+      "groupId": 15,
+      "groupName": "bat",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "Bat-Bat_High" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "maxKillsWithSinglePickup",
+      "isExcluded": false
+    },
+    {
+      "id": 207,
+      "groupId": 15,
+      "groupName": "bat",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "Bat-Bat_Mason" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "maxKillsWithSinglePickup",
+      "isExcluded": false
+    },
+    {
+      "id": 208,
+      "groupId": 15,
+      "groupName": "bat",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "Bat-Bat_Cheese" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 209,
+      "groupId": 15,
+      "groupName": "bat",
+      "excludedPlaylists": [],
+      "targetValue": 75,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Bat-Bat_SoftPurple"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 210,
+      "groupId": 15,
+      "groupName": "bat",
+      "excludedPlaylists": [],
+      "targetValue": 10,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "Bat-Bat_Scrap" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "tripleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 211,
+      "groupId": 15,
+      "groupName": "bat",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "Bat-Bat_Black" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "tripleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 212,
+      "groupId": 15,
+      "groupName": "bat",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "Bat-Bat_Bear" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsInSingleGame",
+      "isExcluded": false
+    },
+    {
+      "id": 213,
+      "groupId": 15,
+      "groupName": "bat",
+      "excludedPlaylists": [],
+      "targetValue": 13,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "Bat-Bat_Gold" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "all",
+      "isExcluded": false
+    },
+    {
+      "id": 300,
+      "groupId": 1,
+      "groupName": "battleRifle",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "BattleRifle-BattleRifle_Void"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 301,
+      "groupId": 1,
+      "groupName": "battleRifle",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "BattleRifle-BattleRifle_Daisy"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 302,
+      "groupId": 1,
+      "groupName": "battleRifle",
+      "excludedPlaylists": [],
+      "targetValue": 500,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "BattleRifle-BattleRifle_Sunflower"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 303,
+      "groupId": 1,
+      "groupName": "battleRifle",
+      "excludedPlaylists": [],
+      "targetValue": 2500,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "BattleRifle-BattleRifle_Low"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 304,
+      "groupId": 1,
+      "groupName": "battleRifle",
+      "excludedPlaylists": [],
+      "targetValue": 10000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "BattleRifle-BattleRifle_Jugger"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 305,
+      "groupId": 1,
+      "groupName": "battleRifle",
+      "excludedPlaylists": [],
+      "targetValue": 25000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "BattleRifle-BattleRifle_Juggernaut"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 306,
+      "groupId": 1,
+      "groupName": "battleRifle",
+      "excludedPlaylists": [],
+      "targetValue": 15,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "BattleRifle-BattleRifle_High"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "headshotKills",
+      "isExcluded": false
+    },
+    {
+      "id": 307,
+      "groupId": 1,
+      "groupName": "battleRifle",
+      "excludedPlaylists": [],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "BattleRifle-BattleRifle_Mason"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "headshotKills",
+      "isExcluded": false
+    },
+    {
+      "id": 308,
+      "groupId": 1,
+      "groupName": "battleRifle",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "BattleRifle-BattleRifle_Cheese"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 309,
+      "groupId": 1,
+      "groupName": "battleRifle",
+      "excludedPlaylists": [],
+      "targetValue": 75,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "BattleRifle-BattleRifle_SoftPurple"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 310,
+      "groupId": 1,
+      "groupName": "battleRifle",
+      "excludedPlaylists": [],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "BattleRifle-BattleRifle_Scrap"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 311,
+      "groupId": 1,
+      "groupName": "battleRifle",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "BattleRifle-BattleRifle_Black"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 312,
+      "groupId": 1,
+      "groupName": "battleRifle",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "BattleRifle-BattleRifle_Bear"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsInSingleGame",
+      "isExcluded": false
+    },
+    {
+      "id": 313,
+      "groupId": 1,
+      "groupName": "battleRifle",
+      "excludedPlaylists": [],
+      "targetValue": 13,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "BattleRifle-BattleRifle_Gold"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "all",
+      "isExcluded": false
+    },
+    {
+      "id": 400,
+      "groupId": 16,
+      "groupName": "dmr",
+      "excludedPlaylists": [],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "DMR-DMR_Void" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 401,
+      "groupId": 16,
+      "groupName": "dmr",
+      "excludedPlaylists": [],
+      "targetValue": 250,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "DMR-DMR_Daisy" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 402,
+      "groupId": 16,
+      "groupName": "dmr",
+      "excludedPlaylists": [],
+      "targetValue": 1000,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "DMR-DMR_Sunflower" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 403,
+      "groupId": 16,
+      "groupName": "dmr",
+      "excludedPlaylists": [],
+      "targetValue": 5000,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "DMR-DMR_Low" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 404,
+      "groupId": 16,
+      "groupName": "dmr",
+      "excludedPlaylists": [],
+      "targetValue": 15000,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "DMR-DMR_Jugger" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 405,
+      "groupId": 16,
+      "groupName": "dmr",
+      "excludedPlaylists": [],
+      "targetValue": 50000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "DMR-DMR_Juggernaut"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 406,
+      "groupId": 16,
+      "groupName": "dmr",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "DMR-DMR_High" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "headshotKills",
+      "isExcluded": false
+    },
+    {
+      "id": 407,
+      "groupId": 16,
+      "groupName": "dmr",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "DMR-DMR_Mason" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "headshotKills",
+      "isExcluded": false
+    },
+    {
+      "id": 408,
+      "groupId": 16,
+      "groupName": "dmr",
+      "excludedPlaylists": [],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "DMR-DMR_Cheese" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 409,
+      "groupId": 16,
+      "groupName": "dmr",
+      "excludedPlaylists": [],
+      "targetValue": 150,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "DMR-DMR_SoftPurple"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 410,
+      "groupId": 16,
+      "groupName": "dmr",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "DMR-DMR_Scrap" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 411,
+      "groupId": 16,
+      "groupName": "dmr",
+      "excludedPlaylists": [],
+      "targetValue": 200,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "DMR-DMR_Black" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 412,
+      "groupId": 16,
+      "groupName": "dmr",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "DMR-DMR_Bear" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsInSingleGame",
+      "isExcluded": false
+    },
+    {
+      "id": 413,
+      "groupId": 16,
+      "groupName": "dmr",
+      "excludedPlaylists": [],
+      "targetValue": 13,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "DMR-DMR_Gold" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "all",
+      "isExcluded": false
+    },
+    {
+      "id": 500,
+      "groupId": 2,
+      "groupName": "pistol",
+      "excludedPlaylists": ["UNRANKED_TEAM_SWAT"],
+      "targetValue": 10,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Pistol-Pistol_Void"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 501,
+      "groupId": 2,
+      "groupName": "pistol",
+      "excludedPlaylists": ["UNRANKED_TEAM_SWAT"],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Pistol-Pistol_Daisy"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 502,
+      "groupId": 2,
+      "groupName": "pistol",
+      "excludedPlaylists": ["UNRANKED_TEAM_SWAT"],
+      "targetValue": 250,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Pistol-Pistol_Sunflower"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 503,
+      "groupId": 2,
+      "groupName": "pistol",
+      "excludedPlaylists": ["UNRANKED_TEAM_SWAT"],
+      "targetValue": 1000,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "Pistol-Pistol_Low" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 504,
+      "groupId": 2,
+      "groupName": "pistol",
+      "excludedPlaylists": ["UNRANKED_TEAM_SWAT"],
+      "targetValue": 5000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Pistol-Pistol_Jugger"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 505,
+      "groupId": 2,
+      "groupName": "pistol",
+      "excludedPlaylists": ["UNRANKED_TEAM_SWAT"],
+      "targetValue": 15000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Pistol-Pistol_Juggernaut"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 506,
+      "groupId": 2,
+      "groupName": "pistol",
+      "excludedPlaylists": ["UNRANKED_TEAM_SWAT"],
+      "targetValue": 10,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Pistol-Pistol_High"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "headshotKills",
+      "isExcluded": false
+    },
+    {
+      "id": 507,
+      "groupId": 2,
+      "groupName": "pistol",
+      "excludedPlaylists": ["UNRANKED_TEAM_SWAT"],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Pistol-Pistol_Mason"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "headshotKills",
+      "isExcluded": false
+    },
+    {
+      "id": 508,
+      "groupId": 2,
+      "groupName": "pistol",
+      "excludedPlaylists": ["UNRANKED_TEAM_SWAT"],
+      "targetValue": 15,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Pistol-Pistol_Cheese"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 509,
+      "groupId": 2,
+      "groupName": "pistol",
+      "excludedPlaylists": ["UNRANKED_TEAM_SWAT"],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Pistol-Pistol_SoftPurple"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 510,
+      "groupId": 2,
+      "groupName": "pistol",
+      "excludedPlaylists": ["UNRANKED_TEAM_SWAT"],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Pistol-Pistol_Scrap"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 511,
+      "groupId": 2,
+      "groupName": "pistol",
+      "excludedPlaylists": ["UNRANKED_TEAM_SWAT"],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Pistol-Pistol_Black"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 512,
+      "groupId": 2,
+      "groupName": "pistol",
+      "excludedPlaylists": ["UNRANKED_TEAM_SWAT"],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Pistol-Pistol_Bear"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsInSingleGame",
+      "isExcluded": false
+    },
+    {
+      "id": 513,
+      "groupId": 2,
+      "groupName": "pistol",
+      "excludedPlaylists": ["UNRANKED_TEAM_SWAT"],
+      "targetValue": 13,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Pistol-Pistol_Gold"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "all",
+      "isExcluded": false
+    },
+    {
+      "id": 600,
+      "groupId": 3,
+      "groupName": "plasmaRifle",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "PlasmaRifle-PlasmaRifle_Void"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 601,
+      "groupId": 3,
+      "groupName": "plasmaRifle",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "PlasmaRifle-PlasmaRifle_Daisy"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 602,
+      "groupId": 3,
+      "groupName": "plasmaRifle",
+      "excludedPlaylists": [],
+      "targetValue": 500,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "PlasmaRifle-PlasmaRifle_Sunflower"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 603,
+      "groupId": 3,
+      "groupName": "plasmaRifle",
+      "excludedPlaylists": [],
+      "targetValue": 2500,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "PlasmaRifle-PlasmaRifle_Low"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 604,
+      "groupId": 3,
+      "groupName": "plasmaRifle",
+      "excludedPlaylists": [],
+      "targetValue": 10000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "PlasmaRifle-PlasmaRifle_Jugger"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 605,
+      "groupId": 3,
+      "groupName": "plasmaRifle",
+      "excludedPlaylists": [],
+      "targetValue": 25000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "PlasmaRifle-PlasmaRifle_Juggernaut"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 606,
+      "groupId": 3,
+      "groupName": "plasmaRifle",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "PlasmaRifle-PlasmaRifle_High"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "maxKillsWithSinglePickup",
+      "isExcluded": false
+    },
+    {
+      "id": 607,
+      "groupId": 3,
+      "groupName": "plasmaRifle",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "PlasmaRifle-PlasmaRifle_Mason"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "maxKillsWithSinglePickup",
+      "isExcluded": false
+    },
+    {
+      "id": 608,
+      "groupId": 3,
+      "groupName": "plasmaRifle",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "PlasmaRifle-PlasmaRifle_Cheese"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 609,
+      "groupId": 3,
+      "groupName": "plasmaRifle",
+      "excludedPlaylists": [],
+      "targetValue": 75,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "PlasmaRifle-PlasmaRifle_SoftPurple"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 610,
+      "groupId": 3,
+      "groupName": "plasmaRifle",
+      "excludedPlaylists": [],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "PlasmaRifle-PlasmaRifle_Scrap"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 611,
+      "groupId": 3,
+      "groupName": "plasmaRifle",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "PlasmaRifle-PlasmaRifle_Black"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 612,
+      "groupId": 3,
+      "groupName": "plasmaRifle",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "PlasmaRifle-PlasmaRifle_Bear"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsInSingleGame",
+      "isExcluded": false
+    },
+    {
+      "id": 613,
+      "groupId": 3,
+      "groupName": "plasmaRifle",
+      "excludedPlaylists": [],
+      "targetValue": 13,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "PlasmaRifle-PlasmaRifle_Gold"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "all",
+      "isExcluded": false
+    },
+    {
+      "id": 700,
+      "groupId": 4,
+      "groupName": "railGun",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Railgun-Railgun_Void"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 701,
+      "groupId": 4,
+      "groupName": "railGun",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Railgun-Railgun_Daisy"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 702,
+      "groupId": 4,
+      "groupName": "railGun",
+      "excludedPlaylists": [],
+      "targetValue": 500,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Railgun-Railgun_Sunflower"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 703,
+      "groupId": 4,
+      "groupName": "railGun",
+      "excludedPlaylists": [],
+      "targetValue": 2500,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Railgun-Railgun_Low"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 704,
+      "groupId": 4,
+      "groupName": "railGun",
+      "excludedPlaylists": [],
+      "targetValue": 10000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Railgun-Railgun_Jugger"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 705,
+      "groupId": 4,
+      "groupName": "railGun",
+      "excludedPlaylists": [],
+      "targetValue": 25000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Railgun-Railgun_Juggernaut"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 706,
+      "groupId": 4,
+      "groupName": "railGun",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Railgun-Railgun_High"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "maxKillsWithSinglePickup",
+      "isExcluded": false
+    },
+    {
+      "id": 707,
+      "groupId": 4,
+      "groupName": "railGun",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Railgun-Railgun_Mason"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "maxKillsWithSinglePickup",
+      "isExcluded": false
+    },
+    {
+      "id": 708,
+      "groupId": 4,
+      "groupName": "railGun",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Railgun-Railgun_Cheese"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 709,
+      "groupId": 4,
+      "groupName": "railGun",
+      "excludedPlaylists": [],
+      "targetValue": 75,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Railgun-Railgun_SoftPurple"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 710,
+      "groupId": 4,
+      "groupName": "railGun",
+      "excludedPlaylists": [],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Railgun-Railgun_Scrap"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 711,
+      "groupId": 4,
+      "groupName": "railGun",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Railgun-Railgun_Black"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 712,
+      "groupId": 4,
+      "groupName": "railGun",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Railgun-Railgun_Bear"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "collaterals",
+      "isExcluded": false
+    },
+    {
+      "id": 713,
+      "groupId": 4,
+      "groupName": "railGun",
+      "excludedPlaylists": [],
+      "targetValue": 13,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Railgun-Railgun_Gold"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "all",
+      "isExcluded": false
+    },
+    {
+      "id": 800,
+      "groupId": 5,
+      "groupName": "rocketLauncher",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "RocketLauncher-RocketLauncher_Void"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 801,
+      "groupId": 5,
+      "groupName": "rocketLauncher",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "RocketLauncher-RocketLauncher_Daisy"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 802,
+      "groupId": 5,
+      "groupName": "rocketLauncher",
+      "excludedPlaylists": [],
+      "targetValue": 500,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "RocketLauncher-RocketLauncher_Sunflower"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 803,
+      "groupId": 5,
+      "groupName": "rocketLauncher",
+      "excludedPlaylists": [],
+      "targetValue": 2500,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "RocketLauncher-RocketLauncher_Low"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 804,
+      "groupId": 5,
+      "groupName": "rocketLauncher",
+      "excludedPlaylists": [],
+      "targetValue": 10000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "RocketLauncher-RocketLauncher_Jugger"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 805,
+      "groupId": 5,
+      "groupName": "rocketLauncher",
+      "excludedPlaylists": [],
+      "targetValue": 25000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "RocketLauncher-RocketLauncher_Juggernaut"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 806,
+      "groupId": 5,
+      "groupName": "rocketLauncher",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "RocketLauncher-RocketLauncher_High"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "maxKillsWithSinglePickup",
+      "isExcluded": false
+    },
+    {
+      "id": 807,
+      "groupId": 5,
+      "groupName": "rocketLauncher",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "RocketLauncher-RocketLauncher_Mason"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "maxKillsWithSinglePickup",
+      "isExcluded": false
+    },
+    {
+      "id": 808,
+      "groupId": 5,
+      "groupName": "rocketLauncher",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "RocketLauncher-RocketLauncher_Cheese"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 809,
+      "groupId": 5,
+      "groupName": "rocketLauncher",
+      "excludedPlaylists": [],
+      "targetValue": 75,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "RocketLauncher-RocketLauncher_SoftPurple"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 810,
+      "groupId": 5,
+      "groupName": "rocketLauncher",
+      "excludedPlaylists": [],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "RocketLauncher-RocketLauncher_Scrap"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 811,
+      "groupId": 5,
+      "groupName": "rocketLauncher",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "RocketLauncher-RocketLauncher_Black"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 812,
+      "groupId": 5,
+      "groupName": "rocketLauncher",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "RocketLauncher-RocketLauncher_Bear"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "collaterals",
+      "isExcluded": false
+    },
+    {
+      "id": 813,
+      "groupId": 5,
+      "groupName": "rocketLauncher",
+      "excludedPlaylists": [],
+      "targetValue": 13,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "RocketLauncher-RocketLauncher_Gold"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "all",
+      "isExcluded": false
+    },
+    {
+      "id": 900,
+      "groupId": 6,
+      "groupName": "shotgun",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Shotgun-Shotgun_Void"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 901,
+      "groupId": 6,
+      "groupName": "shotgun",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Shotgun-Shotgun_Daisy"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 902,
+      "groupId": 6,
+      "groupName": "shotgun",
+      "excludedPlaylists": [],
+      "targetValue": 500,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Shotgun-Shotgun_Sunflower"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 903,
+      "groupId": 6,
+      "groupName": "shotgun",
+      "excludedPlaylists": [],
+      "targetValue": 2500,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Shotgun-Shotgun_Low"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 904,
+      "groupId": 6,
+      "groupName": "shotgun",
+      "excludedPlaylists": [],
+      "targetValue": 10000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Shotgun-Shotgun_Jugger"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 905,
+      "groupId": 6,
+      "groupName": "shotgun",
+      "excludedPlaylists": [],
+      "targetValue": 25000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Shotgun-Shotgun_Juggernaut"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 906,
+      "groupId": 6,
+      "groupName": "shotgun",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Shotgun-Shotgun_High"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "maxKillsWithSinglePickup",
+      "isExcluded": false
+    },
+    {
+      "id": 907,
+      "groupId": 6,
+      "groupName": "shotgun",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Shotgun-Shotgun_Mason"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "maxKillsWithSinglePickup",
+      "isExcluded": false
+    },
+    {
+      "id": 908,
+      "groupId": 6,
+      "groupName": "shotgun",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Shotgun-Shotgun_Cheese"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 909,
+      "groupId": 6,
+      "groupName": "shotgun",
+      "excludedPlaylists": [],
+      "targetValue": 75,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Shotgun-Shotgun_SoftPurple"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 910,
+      "groupId": 6,
+      "groupName": "shotgun",
+      "excludedPlaylists": [],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Shotgun-Shotgun_Scrap"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 911,
+      "groupId": 6,
+      "groupName": "shotgun",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Shotgun-Shotgun_Black"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 912,
+      "groupId": 6,
+      "groupName": "shotgun",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Shotgun-Shotgun_Bear"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "collaterals",
+      "isExcluded": false
+    },
+    {
+      "id": 913,
+      "groupId": 6,
+      "groupName": "shotgun",
+      "excludedPlaylists": [],
+      "targetValue": 13,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Shotgun-Shotgun_Gold"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "all",
+      "isExcluded": false
+    },
+    {
+      "id": 1000,
+      "groupId": 7,
+      "groupName": "smg",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "SMG-SMG_Void" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 1001,
+      "groupId": 7,
+      "groupName": "smg",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "SMG-SMG_Daisy" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 1002,
+      "groupId": 7,
+      "groupName": "smg",
+      "excludedPlaylists": [],
+      "targetValue": 500,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "SMG-SMG_Sunflower" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 1003,
+      "groupId": 7,
+      "groupName": "smg",
+      "excludedPlaylists": [],
+      "targetValue": 2500,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "SMG-SMG_Low" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 1004,
+      "groupId": 7,
+      "groupName": "smg",
+      "excludedPlaylists": [],
+      "targetValue": 10000,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "SMG-SMG_Jugger" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 1005,
+      "groupId": 7,
+      "groupName": "smg",
+      "excludedPlaylists": [],
+      "targetValue": 25000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "SMG-SMG_Juggernaut"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 1006,
+      "groupId": 7,
+      "groupName": "smg",
+      "excludedPlaylists": [],
+      "targetValue": 15,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "SMG-SMG_High" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "headshotKills",
+      "isExcluded": false
+    },
+    {
+      "id": 1007,
+      "groupId": 7,
+      "groupName": "smg",
+      "excludedPlaylists": [],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "SMG-SMG_Mason" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "headshotKills",
+      "isExcluded": false
+    },
+    {
+      "id": 1008,
+      "groupId": 7,
+      "groupName": "smg",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "SMG-SMG_Cheese" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 1009,
+      "groupId": 7,
+      "groupName": "smg",
+      "excludedPlaylists": [],
+      "targetValue": 75,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "SMG-SMG_SoftPurple"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 1010,
+      "groupId": 7,
+      "groupName": "smg",
+      "excludedPlaylists": [],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "SMG-SMG_Scrap" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 1011,
+      "groupId": 7,
+      "groupName": "smg",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "SMG-SMG_Black" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 1012,
+      "groupId": 7,
+      "groupName": "smg",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "SMG-SMG_Bear" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsInSingleGame",
+      "isExcluded": false
+    },
+    {
+      "id": 1013,
+      "groupId": 7,
+      "groupName": "smg",
+      "excludedPlaylists": [],
+      "targetValue": 13,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "SMG-SMG_Gold" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "all",
+      "isExcluded": false
+    },
+    {
+      "id": 1100,
+      "groupId": 8,
+      "groupName": "sniperRifle",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Sniper-Sniper_Void"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 1101,
+      "groupId": 8,
+      "groupName": "sniperRifle",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Sniper-Sniper_Daisy"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 1102,
+      "groupId": 8,
+      "groupName": "sniperRifle",
+      "excludedPlaylists": [],
+      "targetValue": 500,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Sniper-Sniper_Sunflower"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "kills",
+      "isExcluded": false
+    },
+    {
+      "id": 1103,
+      "groupId": 8,
+      "groupName": "sniperRifle",
+      "excludedPlaylists": [],
+      "targetValue": 2500,
+      "reward": {
+        "type": "ITEM",
+        "item": { "itemType": "CUSTOMIZATION", "itemSku": "Sniper-Sniper_Low" },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 1104,
+      "groupId": 8,
+      "groupName": "sniperRifle",
+      "excludedPlaylists": [],
+      "targetValue": 10000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Sniper-Sniper_Jugger"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 1105,
+      "groupId": 8,
+      "groupName": "sniperRifle",
+      "excludedPlaylists": [],
+      "targetValue": 25000,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Sniper-Sniper_Juggernaut"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "damageDealt",
+      "isExcluded": false
+    },
+    {
+      "id": 1106,
+      "groupId": 8,
+      "groupName": "sniperRifle",
+      "excludedPlaylists": [],
+      "targetValue": 15,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Sniper-Sniper_High"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "headshotKills",
+      "isExcluded": false
+    },
+    {
+      "id": 1107,
+      "groupId": 8,
+      "groupName": "sniperRifle",
+      "excludedPlaylists": [],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Sniper-Sniper_Mason"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "headshotKills",
+      "isExcluded": false
+    },
+    {
+      "id": 1108,
+      "groupId": 8,
+      "groupName": "sniperRifle",
+      "excludedPlaylists": [],
+      "targetValue": 25,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Sniper-Sniper_Cheese"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 1109,
+      "groupId": 8,
+      "groupName": "sniperRifle",
+      "excludedPlaylists": [],
+      "targetValue": 75,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Sniper-Sniper_SoftPurple"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "doubleKills",
+      "isExcluded": false
+    },
+    {
+      "id": 1110,
+      "groupId": 8,
+      "groupName": "sniperRifle",
+      "excludedPlaylists": [],
+      "targetValue": 50,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Sniper-Sniper_Scrap"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 1111,
+      "groupId": 8,
+      "groupName": "sniperRifle",
+      "excludedPlaylists": [],
+      "targetValue": 100,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Sniper-Sniper_Black"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "killsThruPortal",
+      "isExcluded": false
+    },
+    {
+      "id": 1112,
+      "groupId": 8,
+      "groupName": "sniperRifle",
+      "excludedPlaylists": [],
+      "targetValue": 1,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Sniper-Sniper_Bear"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "collaterals",
+      "isExcluded": false
+    },
+    {
+      "id": 1113,
+      "groupId": 8,
+      "groupName": "sniperRifle",
+      "excludedPlaylists": [],
+      "targetValue": 13,
+      "reward": {
+        "type": "ITEM",
+        "item": {
+          "itemType": "CUSTOMIZATION",
+          "itemSku": "Sniper-Sniper_Gold"
+        },
+        "quantity": 1
+      },
+      "isPremium": false,
+      "statType": "all",
+      "isExcluded": false
+    }
+  ],
+  "featured": [
+    {
+      "startsAt": "2021-10-16T08:00:00.000Z",
+      "endsAt": "2021-11-02T08:00:00.000Z",
+      "challenges": [
+        {
+          "id": 100,
+          "groupId": 0,
+          "excludedPlaylists": [],
+          "displayName": "Get {0} {0}|plural(one=Headshot Kill, other=Headshot Kills)",
+          "targetValue": 31,
+          "reward": {
+            "type": "ITEM",
+            "item": {
+              "itemType": "CUSTOMIZATION",
+              "itemSku": "AssaultRifle-0-610"
+            },
+            "quantity": 1
+          },
+          "isPremium": false,
+          "isExcluded": false
+        },
+        {
+          "id": 101,
+          "groupId": 0,
+          "excludedPlaylists": [],
+          "displayName": "Win a match on Spooky Stadium",
+          "targetValue": 1,
+          "reward": { "type": "DROP", "quantity": 1 },
+          "isPremium": false,
+          "isExcluded": false
+        },
+        {
+          "id": 102,
+          "groupId": 0,
+          "excludedPlaylists": [],
+          "displayName": "Get {0} {0}|plural(one=Double Kill, other=Double Kills)",
+          "targetValue": 13,
+          "reward": {
+            "type": "ITEM",
+            "item": { "itemType": "CUSTOMIZATION", "itemSku": "DMR-0-609" },
+            "quantity": 1
+          },
+          "isPremium": false,
+          "isExcluded": false
+        },
+        {
+          "id": 103,
+          "groupId": 0,
+          "excludedPlaylists": [],
+          "displayName": "Inflict {0} Damage",
+          "targetValue": 666,
+          "reward": { "type": "DROP", "quantity": 1 },
+          "isPremium": false,
+          "isExcluded": false
+        },
+        {
+          "id": 104,
+          "groupId": 0,
+          "excludedPlaylists": [],
+          "displayName": "Get 31 Kills with the BFB",
+          "targetValue": 31,
+          "reward": {
+            "type": "ITEM",
+            "item": { "itemType": "CUSTOMIZATION", "itemSku": "Bat-0-618" },
+            "quantity": 1
+          },
+          "isPremium": false,
+          "isExcluded": false
+        },
+        {
+          "id": 105,
+          "groupId": 0,
+          "excludedPlaylists": [],
+          "displayName": "Play {0} {0}|plural(one=Match, other=Matches)",
+          "targetValue": 31,
+          "reward": { "type": "DROP", "quantity": 1 },
+          "isPremium": false,
+          "isExcluded": false
+        },
+        {
+          "id": 106,
+          "groupId": 0,
+          "excludedPlaylists": [],
+          "displayName": "Complete All Halloween Challenges",
+          "targetValue": 6,
+          "reward": {
+            "type": "ITEM",
+            "item": { "itemType": "CUSTOMIZATION", "itemSku": "Pistol-0-608" },
+            "quantity": 1
+          },
+          "isPremium": false,
+          "isExcluded": false
+        }
+      ]
+    },
+    {
+      "startsAt": "2021-11-01T08:00:00.000Z",
+      "endsAt": "2022-01-06T08:00:00.000Z",
+      "challenges": [
+        {
+          "id": 200,
+          "groupId": 0,
+          "excludedPlaylists": [],
+          "displayName": "Get {0} {0}|plural(one=Kill, other=Kills) Through Portals",
+          "targetValue": 12,
+          "reward": { "type": "DROP", "quantity": 1 },
+          "isPremium": false,
+          "isExcluded": false
+        },
+        {
+          "id": 201,
+          "groupId": 0,
+          "excludedPlaylists": [],
+          "displayName": "Play a match on Stadium, Abyss, and Pantheon",
+          "targetValue": 3,
+          "reward": {
+            "type": "ITEM",
+            "item": { "itemType": "CUSTOMIZATION", "itemSku": "Spray-196" },
+            "quantity": 1
+          },
+          "isPremium": false,
+          "isExcluded": false
+        },
+        {
+          "id": 202,
+          "groupId": 0,
+          "excludedPlaylists": [],
+          "displayName": "Win {0} Matches in the Featured Playlist",
+          "targetValue": 5,
+          "reward": { "type": "DROP", "quantity": 1 },
+          "isPremium": false,
+          "isExcluded": false
+        },
+        {
+          "id": 203,
+          "groupId": 0,
+          "excludedPlaylists": [],
+          "displayName": "Inflict {0} Damage",
+          "targetValue": 2022,
+          "reward": { "type": "DROP", "quantity": 1 },
+          "isPremium": false,
+          "isExcluded": false
+        },
+        {
+          "id": 204,
+          "groupId": 0,
+          "excludedPlaylists": [],
+          "displayName": "Play a match in {0} Different Game Modes",
+          "targetValue": 12,
+          "reward": {
+            "type": "ITEM",
+            "item": { "itemType": "CUSTOMIZATION", "itemSku": "Armor-57-640" },
+            "quantity": 1
+          },
+          "isPremium": false,
+          "isExcluded": false
+        },
+        {
+          "id": 205,
+          "groupId": 0,
+          "excludedPlaylists": [],
+          "displayName": "Win {0} {0}|plural(one=Match, other=Matches)",
+          "targetValue": 25,
+          "reward": {
+            "type": "ITEM",
+            "item": { "itemType": "CUSTOMIZATION", "itemSku": "Portal-36" },
+            "quantity": 1
+          },
+          "isPremium": false,
+          "isExcluded": false
+        },
+        {
+          "id": 206,
+          "groupId": 0,
+          "excludedPlaylists": [],
+          "displayName": "Complete All Winter Challenges",
+          "targetValue": 6,
+          "reward": {
+            "type": "ITEM",
+            "item": {
+              "itemType": "CUSTOMIZATION",
+              "itemSku": "AssaultRifle-21-639"
+            },
+            "quantity": 1
+          },
+          "isPremium": false,
+          "isExcluded": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1609 @@
+{
+  "rewards": {
+    "jetpack-jetpack_operator_legierung": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "jetpack-jetpack_operator_legierung",
+      "type": "ITEM",
+      "itemId": "7468db90e3ea4895982fc91991f2b888",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Legierung",
+      "itemSku": "Jetpack-Jetpack_Operator_Legierung",
+      "quantity": 1
+    },
+    "sniper-sniper_aurora": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "sniper-sniper_aurora",
+      "type": "ITEM",
+      "itemId": "f02f35df0b36470385daed472abb172f",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Aurora",
+      "itemSku": "Sniper-Sniper_Aurora",
+      "quantity": 1
+    },
+    "armor-character_misty_rose": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "armor-character_misty_rose",
+      "type": "ITEM",
+      "itemId": "10ef1694e5db481b869a60a80e9eabe4",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Rose",
+      "itemSku": "Armor-Character_Misty_Rose",
+      "quantity": 1
+    },
+    "smg-smg_squirt": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "smg-smg_squirt",
+      "type": "ITEM",
+      "itemId": "85fd661e1441473cb8fdd9b519433a08",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Squirt",
+      "itemSku": "SMG-SMG_Squirt",
+      "quantity": 1
+    },
+    "shotgun-shotgun_dank": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "shotgun-shotgun_dank",
+      "type": "ITEM",
+      "itemId": "a353b7fa621c4cf389d3bf43cefbed9e",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Dank",
+      "itemSku": "Shotgun-Shotgun_Dank",
+      "quantity": 1
+    },
+    "rocketlauncher-rocketlauncher_champain": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "rocketlauncher-rocketlauncher_champain",
+      "type": "ITEM",
+      "itemId": "da725e9c85284e10b64669a8cdbb6d05",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Champain",
+      "itemSku": "RocketLauncher-RocketLauncher_Champain",
+      "quantity": 1
+    },
+    "spray-spray_dipanddrip": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "spray-spray_dipanddrip",
+      "type": "ITEM",
+      "itemId": "e543cc6327904b4a949f3a1807e97c92",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Dip and Drip",
+      "itemSku": "Spray-Spray_DipandDrip",
+      "quantity": 1
+    },
+    "plasmarifle-plasmarifle_chrysalis": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "plasmarifle-plasmarifle_chrysalis",
+      "type": "ITEM",
+      "itemId": "bb1a971c84c64e53bfc6655af5d3d405",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Chrysalis",
+      "itemSku": "PlasmaRifle-PlasmaRifle_Chrysalis",
+      "quantity": 1
+    },
+    "spray-spray_tipofthespear": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "spray-spray_tipofthespear",
+      "type": "ITEM",
+      "itemId": "9ad8b18c278a45c7846a65413c6c8e9b",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Tip of the Spear",
+      "itemSku": "Spray-Spray_TipoftheSpear",
+      "quantity": 1
+    },
+    "portal-portal_war": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "portal-portal_war",
+      "type": "ITEM",
+      "itemId": "b0137140f5c0464aaab2159a8d8f5906",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "War",
+      "itemSku": "Portal-Portal_War",
+      "quantity": 1
+    },
+    "badge-badge_season2battlepass": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "badge-badge_season2battlepass",
+      "type": "ITEM",
+      "itemId": "45af31baeb9f44279650f172516c54e3",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "New phone, who Abyss?",
+      "itemSku": "Badge-Badge_Season2BattlePass",
+      "quantity": 1
+    },
+    "banner-banner_radia": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "banner-banner_radia",
+      "type": "ITEM",
+      "itemId": "66b6546b0536498c9440d85530e71dab",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Radia",
+      "itemSku": "Banner-Banner_Radia",
+      "quantity": 1
+    },
+    "battlerifle-battlerifle_squirt": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "battlerifle-battlerifle_squirt",
+      "type": "ITEM",
+      "itemId": "e97066bac2c64f08bf092b21dc8cb8bd",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Squirt",
+      "itemSku": "BattleRifle-BattleRifle_Squirt",
+      "quantity": 1
+    },
+    "jetpack-jetpack_operator_mushi": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "jetpack-jetpack_operator_mushi",
+      "type": "ITEM",
+      "itemId": "51169f30316747d59ebc17e0493170df",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Mushi",
+      "itemSku": "Jetpack-Jetpack_Operator_Mushi",
+      "quantity": 1
+    },
+    "battlerifle-battlerifle_goldenhour": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "battlerifle-battlerifle_goldenhour",
+      "type": "ITEM",
+      "itemId": "61702396eec64cd384b6c97b524b7b4d",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "GoldenHour",
+      "itemSku": "BattleRifle-BattleRifle_GoldenHour",
+      "quantity": 1
+    },
+    "banner-banner_tortuga": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "banner-banner_tortuga",
+      "type": "ITEM",
+      "itemId": "9725a7b829b84aaebe1c700db1929529",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Tortuga",
+      "itemSku": "Banner-Banner_Tortuga",
+      "quantity": 1
+    },
+    "assaultrifle-assaultrifle_chrysalis": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "assaultrifle-assaultrifle_chrysalis",
+      "type": "ITEM",
+      "itemId": "9e1dc7ebe61c405bae17ba3eef7fd65c",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Chrysalis",
+      "itemSku": "AssaultRifle-AssaultRifle_Chrysalis",
+      "quantity": 1
+    },
+    "nametag-nametag_betas2allstar": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "nametag-nametag_betas2allstar",
+      "type": "ITEM",
+      "itemId": "82e6354305784591a767b953ce8bcf5b",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "All-Star",
+      "itemSku": "NameTag-NameTag_BetaS2AllStar",
+      "quantity": 1
+    },
+    "dmr-dmr_redspawn": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "dmr-dmr_redspawn",
+      "type": "ITEM",
+      "itemId": "1b62c633f85146ab9bc26bd5a6842345",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "RedSpawn",
+      "itemSku": "DMR-DMR_RedSpawn",
+      "quantity": 1
+    },
+    "dmr-dmr_squirt": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "dmr-dmr_squirt",
+      "type": "ITEM",
+      "itemId": "a6bd82ce80004c319ef1c2fa521ad10d",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Squirt",
+      "itemSku": "DMR-DMR_Squirt",
+      "quantity": 1
+    },
+    "assaultrifle-assaultrifle_redspawn": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "assaultrifle-assaultrifle_redspawn",
+      "type": "ITEM",
+      "itemId": "665c0ef264de4cebbf09c5659a59c548",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "RedSpawn",
+      "itemSku": "AssaultRifle-AssaultRifle_RedSpawn",
+      "quantity": 1
+    },
+    "smg-smg_scuttle": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "smg-smg_scuttle",
+      "type": "ITEM",
+      "itemId": "a35d552563f34c8388d42d399cf89e83",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Scuttle",
+      "itemSku": "SMG-SMG_Scuttle",
+      "quantity": 1
+    },
+    "jetpack-jetpack_guardian_base": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "jetpack-jetpack_guardian_base",
+      "type": "ITEM",
+      "itemId": "c6e3c23431d5448c87ffe14a09635be2",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Banana Stand",
+      "itemSku": "Jetpack-Jetpack_Guardian_Base",
+      "quantity": 1
+    },
+    "dmr-dmr_zen": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "dmr-dmr_zen",
+      "type": "ITEM",
+      "itemId": "ac11babc5dee4d31bcae9bc2fe102206",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Zen",
+      "itemSku": "DMR-DMR_Zen",
+      "quantity": 1
+    },
+    "spray-spray_precious": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "spray-spray_precious",
+      "type": "ITEM",
+      "itemId": "90f9a12df570456fabf5bf55d9abe90a",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Precious",
+      "itemSku": "Spray-Spray_Precious",
+      "quantity": 1
+    },
+    "shotgun-shotgun_zen": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "shotgun-shotgun_zen",
+      "type": "ITEM",
+      "itemId": "0533b2c2f7734eee98f6ed3c1c86f4b5",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Zen",
+      "itemSku": "Shotgun-Shotgun_Zen",
+      "quantity": 1
+    },
+    "bat-bat_sonoran": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "bat-bat_sonoran",
+      "type": "ITEM",
+      "itemId": "c818fb3b2d9147c0a3ffd86517b40d09",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Sonoran",
+      "itemSku": "Bat-Bat_Sonoran",
+      "quantity": 1
+    },
+    "portalgun-portalgun_operator_mushi": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "portalgun-portalgun_operator_mushi",
+      "type": "ITEM",
+      "itemId": "f0275d3036a64ba8b68aa8840a49ad7c",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Mushi",
+      "itemSku": "PortalGun-PortalGun_Operator_Mushi",
+      "quantity": 1
+    },
+    "battlerifle-battlerifle_dank": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "battlerifle-battlerifle_dank",
+      "type": "ITEM",
+      "itemId": "8e7486890c474c92ae3917febf09360e",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Dank",
+      "itemSku": "BattleRifle-BattleRifle_Dank",
+      "quantity": 1
+    },
+    "portalgun-portalgun_guardian_base": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "portalgun-portalgun_guardian_base",
+      "type": "ITEM",
+      "itemId": "89b9bb8cca864566857d9a689f412121",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Banana Stand",
+      "itemSku": "PortalGun-PortalGun_Guardian_Base",
+      "quantity": 1
+    },
+    "plasmarifle-plasmarifle_scuttle": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "plasmarifle-plasmarifle_scuttle",
+      "type": "ITEM",
+      "itemId": "c694e4bb61c94f0ea2f7060cb169c7d0",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Scuttle",
+      "itemSku": "PlasmaRifle-PlasmaRifle_Scuttle",
+      "quantity": 1
+    },
+    "shotgun-shotgun_tripz": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "shotgun-shotgun_tripz",
+      "type": "ITEM",
+      "itemId": "6f4eba964897443fb07e09808a01d2ff",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Tripz",
+      "itemSku": "Shotgun-Shotgun_Tripz",
+      "quantity": 1
+    },
+    "armor-character_guardian_honeypot": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "armor-character_guardian_honeypot",
+      "type": "ITEM",
+      "itemId": "222f41633f9c4331916c21daaa701849",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Honeypot",
+      "itemSku": "Armor-Character_Guardian_Honeypot",
+      "quantity": 1
+    },
+    "armor-character_guardian_base": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "armor-character_guardian_base",
+      "type": "ITEM",
+      "itemId": "02a663852a744729acab225c8249dc3b",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Banana Stand",
+      "itemSku": "Armor-Character_Guardian_Base",
+      "quantity": 1
+    },
+    "bat-bat_motherboard": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "bat-bat_motherboard",
+      "type": "ITEM",
+      "itemId": "1a2b1c0a46f4490aab178269e3fd3f48",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Motherboard",
+      "itemSku": "Bat-Bat_Motherboard",
+      "quantity": 1
+    },
+    "banner-banner_waspy": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "banner-banner_waspy",
+      "type": "ITEM",
+      "itemId": "f975a69db86a4811befc97d0078eb538",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Waspy",
+      "itemSku": "Banner-Banner_Waspy",
+      "quantity": 1
+    },
+    "armor-character_misty_stella": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "armor-character_misty_stella",
+      "type": "ITEM",
+      "itemId": "7ab032a75123482597ec4052a6f2ac8d",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Stella",
+      "itemSku": "Armor-Character_Misty_Stella",
+      "quantity": 1
+    },
+    "armor-character_operator_mushi": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "armor-character_operator_mushi",
+      "type": "ITEM",
+      "itemId": "5d08bddcc8c54cf487e04aa52cd0c995",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Mushi",
+      "itemSku": "Armor-Character_Operator_Mushi",
+      "quantity": 1
+    },
+    "premium-bundle-18202709": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "premium-bundle-18202709",
+      "type": "ITEM",
+      "itemId": "60c8ce54a3b44c11b901aa8f83582f43",
+      "itemType": "BUNDLE",
+      "itemName": "Battlepass + 20 levels",
+      "itemSku": "bundle-18202709",
+      "quantity": 1
+    },
+    "dmr-dmr_scotch": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "dmr-dmr_scotch",
+      "type": "ITEM",
+      "itemId": "b853737a58d9461a8b6babf9add2467b",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Scotch",
+      "itemSku": "DMR-DMR_Scotch",
+      "quantity": 1
+    },
+    "rocketlauncher-rocketlauncher_redspawn": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "rocketlauncher-rocketlauncher_redspawn",
+      "type": "ITEM",
+      "itemId": "ad8d9256e3ef4bfab1a3553714b145c1",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "RedSpawn",
+      "itemSku": "RocketLauncher-RocketLauncher_RedSpawn",
+      "quantity": 1
+    },
+    "shotgun-shotgun_aurora": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "shotgun-shotgun_aurora",
+      "type": "ITEM",
+      "itemId": "4c38d5fe93e145d5906dde600e57d2de",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Aurora",
+      "itemSku": "Shotgun-Shotgun_Aurora",
+      "quantity": 1
+    },
+    "assaultrifle-assaultrifle_squirt": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "assaultrifle-assaultrifle_squirt",
+      "type": "ITEM",
+      "itemId": "91d2522725f0420ba7bf97aebbc062b8",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Squirt",
+      "itemSku": "AssaultRifle-AssaultRifle_Squirt",
+      "quantity": 1
+    },
+    "armor-character_misty_kel": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "armor-character_misty_kel",
+      "type": "ITEM",
+      "itemId": "939e2af4047e45f791fa797d6673e02e",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Kel",
+      "itemSku": "Armor-Character_Misty_Kel",
+      "quantity": 1
+    },
+    "bat-bat_abominable": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "bat-bat_abominable",
+      "type": "ITEM",
+      "itemId": "21c50ab5022d47b68f5dad8988872e9f",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Abominable",
+      "itemSku": "Bat-Bat_Abominable",
+      "quantity": 1
+    },
+    "armor-character_guardian_boujee": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "armor-character_guardian_boujee",
+      "type": "ITEM",
+      "itemId": "39d750869f5d4d59a6cf53b88e5fabfb",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Boujee",
+      "itemSku": "Armor-Character_Guardian_Boujee",
+      "quantity": 1
+    },
+    "xpboots-5": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "xpboots-5",
+      "type": "XPBOOST",
+      "quantity": 5
+    },
+    "spray-spray_thriving": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "spray-spray_thriving",
+      "type": "ITEM",
+      "itemId": "3c34c326293443f097db43be071eecc0",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Thriving",
+      "itemSku": "Spray-Spray_Thriving",
+      "quantity": 1
+    },
+    "sniper-sniper_goldenhour": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "sniper-sniper_goldenhour",
+      "type": "ITEM",
+      "itemId": "98f1e1cf42044df3982fde424f5fdd8a",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "GoldenHour",
+      "itemSku": "Sniper-Sniper_GoldenHour",
+      "quantity": 1
+    },
+    "drop-1": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "drop-1",
+      "type": "DROP",
+      "quantity": 1
+    },
+    "rocketlauncher-rocketlauncher_dank": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "rocketlauncher-rocketlauncher_dank",
+      "type": "ITEM",
+      "itemId": "3498d4e52ef3438b8f2894f0314f2806",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Dank",
+      "itemSku": "RocketLauncher-RocketLauncher_Dank",
+      "quantity": 1
+    },
+    "battlerifle-battlerifle_abominable": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "battlerifle-battlerifle_abominable",
+      "type": "ITEM",
+      "itemId": "7a1272ebba0e44428dcb3263d6f08c13",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Abominable",
+      "itemSku": "BattleRifle-BattleRifle_Abominable",
+      "quantity": 1
+    },
+    "portalgun-portalgun_operator_base": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "portalgun-portalgun_operator_base",
+      "type": "ITEM",
+      "itemId": "12bb53dacb0a4b0494fe222b06b4f5f2",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Primordial",
+      "itemSku": "PortalGun-PortalGun_Operator_Base",
+      "quantity": 1
+    },
+    "portalgun-portalgun_guardian_honeypot": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "portalgun-portalgun_guardian_honeypot",
+      "type": "ITEM",
+      "itemId": "3dd2859861884ac8aa9ca7c99bb36d33",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Honeypot",
+      "itemSku": "PortalGun-PortalGun_Guardian_Honeypot",
+      "quantity": 1
+    },
+    "assaultrifle-assaultrifle_scotch": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "assaultrifle-assaultrifle_scotch",
+      "type": "ITEM",
+      "itemId": "1c4ce464b3bc43a3b8217f5e57763894",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Scotch",
+      "itemSku": "AssaultRifle-AssaultRifle_Scotch",
+      "quantity": 1
+    },
+    "dmr-dmr_arc": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "dmr-dmr_arc",
+      "type": "ITEM",
+      "itemId": "6133e342b21e425c9b62a13aff420714",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Arc",
+      "itemSku": "DMR-DMR_Arc",
+      "quantity": 1
+    },
+    "jetpack-jetpack_operator_base": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "jetpack-jetpack_operator_base",
+      "type": "ITEM",
+      "itemId": "2fab18d12473443fb46de6691cea165e",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Primordial",
+      "itemSku": "Jetpack-Jetpack_Operator_Base",
+      "quantity": 1
+    },
+    "battlerifle-battlerifle_sonoran": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "battlerifle-battlerifle_sonoran",
+      "type": "ITEM",
+      "itemId": "e08bc8a3b15b4a019927e5d41a2da3a8",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Sonoran",
+      "itemSku": "BattleRifle-BattleRifle_Sonoran",
+      "quantity": 1
+    },
+    "spray-spray_vibefail": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "spray-spray_vibefail",
+      "type": "ITEM",
+      "itemId": "3d01bb4c3c69482692c7842ab30c07b4",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Vibe Fail",
+      "itemSku": "Spray-Spray_VibeFail",
+      "quantity": 1
+    },
+    "nametag-nametag_betas2competitor": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "nametag-nametag_betas2competitor",
+      "type": "ITEM",
+      "itemId": "a4799ac746e04ae9816b696f97ee01f2",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Competitor",
+      "itemSku": "NameTag-NameTag_BetaS2Competitor",
+      "quantity": 1
+    },
+    "plasmarifle-plasmarifle_aurora": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "plasmarifle-plasmarifle_aurora",
+      "type": "ITEM",
+      "itemId": "43dfbe842acc4be2a40e7127b8c9c53b",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Aurora",
+      "itemSku": "PlasmaRifle-PlasmaRifle_Aurora",
+      "quantity": 1
+    },
+    "bat-bat_arc": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "bat-bat_arc",
+      "type": "ITEM",
+      "itemId": "59aef8bcf87849f1b73cad57317206ff",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Arc",
+      "itemSku": "Bat-Bat_Arc",
+      "quantity": 1
+    },
+    "smg-smg_tripz": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "smg-smg_tripz",
+      "type": "ITEM",
+      "itemId": "d31dbf1ef3114e2a99628fb833741534",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Tripz",
+      "itemSku": "SMG-SMG_Tripz",
+      "quantity": 1
+    },
+    "armor-character_operator_legierung": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "armor-character_operator_legierung",
+      "type": "ITEM",
+      "itemId": "fe1499c20233443195ba176b527b81d6",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Legierung",
+      "itemSku": "Armor-Character_Operator_Legierung",
+      "quantity": 1
+    },
+    "sniper-sniper_chrysalis": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "sniper-sniper_chrysalis",
+      "type": "ITEM",
+      "itemId": "adef98edfccf4487b3ec163ee1d3628a",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Chrysalis",
+      "itemSku": "Sniper-Sniper_Chrysalis",
+      "quantity": 1
+    },
+    "railgun-railgun_arc": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "railgun-railgun_arc",
+      "type": "ITEM",
+      "itemId": "30509e92f53a43e0a22c9886cd724aa8",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Arc",
+      "itemSku": "Railgun-Railgun_Arc",
+      "quantity": 1
+    },
+    "jetpack-jetpack_guardian_boujee": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "jetpack-jetpack_guardian_boujee",
+      "type": "ITEM",
+      "itemId": "583d32c611244981b31e8e520c2f66e4",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Boujee",
+      "itemSku": "Jetpack-Jetpack_Guardian_Boujee",
+      "quantity": 1
+    },
+    "portalgun-portalgun_guardian_boujee": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "portalgun-portalgun_guardian_boujee",
+      "type": "ITEM",
+      "itemId": "8e719fe6b1d14c95bdbe9c1b5170c65c",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Boujee",
+      "itemSku": "PortalGun-PortalGun_Guardian_Boujee",
+      "quantity": 1
+    },
+    "nametag-nametag_betas2novice": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "nametag-nametag_betas2novice",
+      "type": "ITEM",
+      "itemId": "0fc1e0ef98834dcfb1f1d3fcae669df8",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Novice",
+      "itemSku": "NameTag-NameTag_BetaS2Novice",
+      "quantity": 1
+    },
+    "sniper-sniper_arc": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "sniper-sniper_arc",
+      "type": "ITEM",
+      "itemId": "41677e07762847bb9a37d0e55bd09b49",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Arc",
+      "itemSku": "Sniper-Sniper_Arc",
+      "quantity": 1
+    },
+    "portalgun-portalgun_operator_legierung": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "portalgun-portalgun_operator_legierung",
+      "type": "ITEM",
+      "itemId": "4c0c41eeeb8e4810b443bf1b7a558247",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Legierung",
+      "itemSku": "PortalGun-PortalGun_Operator_Legierung",
+      "quantity": 1
+    },
+    "shotgun-shotgun_krafty": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "shotgun-shotgun_krafty",
+      "type": "ITEM",
+      "itemId": "a4aa15c1623c4d5893f73c8eafdf0263",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Krafty",
+      "itemSku": "Shotgun-Shotgun_Krafty",
+      "quantity": 1
+    },
+    "jetpack-jetpack_guardian_honeypot": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "jetpack-jetpack_guardian_honeypot",
+      "type": "ITEM",
+      "itemId": "c13e36e5c9b640b49bc67ac2b16ee444",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Honeypot",
+      "itemSku": "Jetpack-Jetpack_Guardian_Honeypot",
+      "quantity": 1
+    },
+    "smg-smg_barbecue": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "smg-smg_barbecue",
+      "type": "ITEM",
+      "itemId": "14d3922d5e994c0ba07ed8362240858f",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Barbecue",
+      "itemSku": "SMG-SMG_Barbecue",
+      "quantity": 1
+    },
+    "currency-100": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "currency-100",
+      "type": "CURRENCY",
+      "currency": {
+        "namespace": "splitgate",
+        "currencyCode": "SC"
+      },
+      "quantity": 100
+    },
+    "banner-banner_elektro": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "banner-banner_elektro",
+      "type": "ITEM",
+      "itemId": "6a21a978b1ae4bc7a197d2632eb2bd6f",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Elektro",
+      "itemSku": "Banner-Banner_Elektro",
+      "quantity": 1
+    },
+    "rocketlauncher-rocketlauncher_serum": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "rocketlauncher-rocketlauncher_serum",
+      "type": "ITEM",
+      "itemId": "46a09bd3f7f2474484e219fdc5e2e0f3",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Serum",
+      "itemSku": "RocketLauncher-RocketLauncher_Serum",
+      "quantity": 1
+    },
+    "pistol-pistol_sonoran": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "pistol-pistol_sonoran",
+      "type": "ITEM",
+      "itemId": "0725c8fcd85c4faca4ac00279c3ed913",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Sonoran",
+      "itemSku": "Pistol-Pistol_Sonoran",
+      "quantity": 1
+    },
+    "armor-character_operator_base": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "armor-character_operator_base",
+      "type": "ITEM",
+      "itemId": "af3727586e7948a2889fa2caca6b50d3",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Primordial",
+      "itemSku": "Armor-Character_Operator_Base",
+      "quantity": 1
+    },
+    "pistol-pistol_abominable": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "pistol-pistol_abominable",
+      "type": "ITEM",
+      "itemId": "2530ccf861164e36851b3f7738b75810",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Abominable",
+      "itemSku": "Pistol-Pistol_Abominable",
+      "quantity": 1
+    },
+    "nametag-nametag_betas2rookie": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "nametag-nametag_betas2rookie",
+      "type": "ITEM",
+      "itemId": "b3d33e5397a146bdb28e556fad5fe583",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Rookie",
+      "itemSku": "NameTag-NameTag_BetaS2Rookie",
+      "quantity": 1
+    },
+    "pistol-pistol_motherboard": {
+      "namespace": "splitgate",
+      "seasonId": "d04b5503e33941c3b891517622b220da",
+      "code": "pistol-pistol_motherboard",
+      "type": "ITEM",
+      "itemId": "7d518d5b5749436e86a89749b310ce94",
+      "itemType": "CUSTOMIZATION",
+      "itemName": "Motherboard",
+      "itemSku": "Pistol-Pistol_Motherboard",
+      "quantity": 1
+    }
+  },
+  "tiers": [
+    {
+      "id": "4555bd30aaca45d8a657cc2e94bbdfe5",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": [
+          "dmr-dmr_arc",
+          "armor-character_operator_base",
+          "xpboots-5"
+        ]
+      }
+    },
+    {
+      "id": "a16189f868134fce8088165006b82bee",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["plasmarifle-plasmarifle_aurora"]
+      }
+    },
+    {
+      "id": "a2093d1f067240318c9db54b96187c9a",
+      "requiredExp": 25000,
+      "rewards": {
+        "freerewards": ["drop-1"]
+      }
+    },
+    {
+      "id": "579a6b1a8f5e461ab89b82c6c7a9894a",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["assaultrifle-assaultrifle_redspawn"]
+      }
+    },
+    {
+      "id": "cc612ce502bd4849b591fd6ae8e6d404",
+      "requiredExp": 25000,
+      "rewards": {
+        "freerewards": ["currency-100"]
+      }
+    },
+    {
+      "id": "78a38e4cee124bba8cc300c818314214",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["banner-banner_waspy"]
+      }
+    },
+    {
+      "id": "25a98901194d438e9d90868528ef4543",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["shotgun-shotgun_aurora"]
+      }
+    },
+    {
+      "id": "3744da548fb24dc6b38a01e2c9f220e6",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["dmr-dmr_zen"]
+      }
+    },
+    {
+      "id": "6517db3828874843b55c2126a0c1e680",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["sniper-sniper_arc"]
+      }
+    },
+    {
+      "id": "52835ef63ff1440797eccdf804c28737",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["battlerifle-battlerifle_goldenhour"]
+      }
+    },
+    {
+      "id": "452e0aa3cfa24a688c96a4706a31cf13",
+      "requiredExp": 25000,
+      "rewards": {
+        "freerewards": ["drop-1"]
+      }
+    },
+    {
+      "id": "dbbefffa2c2c423197f516f5630f499f",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["rocketlauncher-rocketlauncher_serum"]
+      }
+    },
+    {
+      "id": "709540270e20488292038149f664236e",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["assaultrifle-assaultrifle_chrysalis"]
+      }
+    },
+    {
+      "id": "08c551cb5bde4d258ecd5173474ed67b",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["currency-100"]
+      }
+    },
+    {
+      "id": "18268ab71fa545768fcd75f621adafbe",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["sniper-sniper_chrysalis"]
+      }
+    },
+    {
+      "id": "0e4a0224dfe246ee8481e4d5aa2faa33",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["armor-character_misty_stella"]
+      }
+    },
+    {
+      "id": "57809a3c2c084b4fb25af209c8769131",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["nametag-nametag_betas2rookie"]
+      }
+    },
+    {
+      "id": "4daf1e5bc8ff4663acd5f71f42776411",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["bat-bat_abominable"]
+      }
+    },
+    {
+      "id": "604130dffefe44dc8157363d0199a206",
+      "requiredExp": 25000,
+      "rewards": {
+        "freerewards": ["drop-1"]
+      }
+    },
+    {
+      "id": "ae56af0811a740ba93a7ba69c06cd1c6",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["jetpack-jetpack_operator_base"]
+      }
+    },
+    {
+      "id": "59a5a0327faf4229a3deef8213a3fd37",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["pistol-pistol_sonoran"]
+      }
+    },
+    {
+      "id": "6f6d1b328a6e4170a3c7a0ab4d4b8c5b",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["spray-spray_thriving"]
+      }
+    },
+    {
+      "id": "4344f4a16a994aadb6b99cad7c97a771",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["currency-100"]
+      }
+    },
+    {
+      "id": "53f64f8035cd4ed5a20fba0fa0055fcf",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["battlerifle-battlerifle_abominable"]
+      }
+    },
+    {
+      "id": "f1f13a3c159e4cfdaa10f0462f5b6ab7",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["xpboots-5"]
+      }
+    },
+    {
+      "id": "da567c12c05142749fa8d5e3da8485a0",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["banner-banner_radia"]
+      }
+    },
+    {
+      "id": "0f92eb66297541b8866ae29eb73d6f2a",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["battlerifle-battlerifle_squirt"]
+      }
+    },
+    {
+      "id": "b3acadbcd270482eb28a7b51c8d8ab3b",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["portalgun-portalgun_operator_base"]
+      }
+    },
+    {
+      "id": "68bd6f9053ab4902919e4794c5640a74",
+      "requiredExp": 25000,
+      "rewards": {
+        "freerewards": ["drop-1"]
+      }
+    },
+    {
+      "id": "9f550e86e4ce433a93aa57ff399f021f",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["dmr-dmr_squirt"]
+      }
+    },
+    {
+      "id": "55a38f6491e2471b8a03ce129a111efa",
+      "requiredExp": 25000,
+      "rewards": {
+        "freerewards": ["currency-100"]
+      }
+    },
+    {
+      "id": "c047e8f448dd4404b766ff7cba6a7ee9",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["shotgun-shotgun_krafty"]
+      }
+    },
+    {
+      "id": "46191130528e44bfa84d18f35f40636c",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["spray-spray_tipofthespear"]
+      }
+    },
+    {
+      "id": "cc5d3e1b5a7e44f79708d677bb43294f",
+      "requiredExp": 25000,
+      "rewards": {
+        "freerewards": ["drop-1"]
+      }
+    },
+    {
+      "id": "098604aa42f4492ab4c9998a22d750d2",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["smg-smg_scuttle"]
+      }
+    },
+    {
+      "id": "5c5a1f0f629144bbbadc3adac10d660c",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["sniper-sniper_goldenhour"]
+      }
+    },
+    {
+      "id": "efbf189052c04c89a922edcbee6dba5d",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["armor-character_operator_mushi"]
+      }
+    },
+    {
+      "id": "0261b6472515490680b408e83a0fb017",
+      "requiredExp": 25000,
+      "rewards": {
+        "freerewards": ["drop-1"]
+      }
+    },
+    {
+      "id": "c38818a07e654dc5915a7f406a4a53c9",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["nametag-nametag_betas2novice"]
+      }
+    },
+    {
+      "id": "dec614fc83494c1c840dea94c388fad4",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["jetpack-jetpack_operator_mushi"]
+      }
+    },
+    {
+      "id": "7d297bb7bf2e4abfb738be01af4aa14e",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["currency-100"]
+      }
+    },
+    {
+      "id": "68b5aa5e979944cd94b7b1f4e8e7469d",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["bat-bat_sonoran"]
+      }
+    },
+    {
+      "id": "ffe7179b73464b10a1fc1fddc48b2db5",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["dmr-dmr_redspawn"]
+      }
+    },
+    {
+      "id": "4f350a45aa524da0b275b0087013f69d",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["portalgun-portalgun_operator_mushi"]
+      }
+    },
+    {
+      "id": "96bb073350f94750a3ed324ba3dc8f9e",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["rocketlauncher-rocketlauncher_dank"]
+      }
+    },
+    {
+      "id": "ed8e43c265bd4be0b11f5eb935ea7c20",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["spray-spray_precious"]
+      }
+    },
+    {
+      "id": "1ed00a1a737a40a78cc5fee41f5d4af1",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["shotgun-shotgun_zen"]
+      }
+    },
+    {
+      "id": "f99059db229b471f8e98cdc10d1147d4",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["dmr-dmr_scotch"]
+      }
+    },
+    {
+      "id": "ee0f1c4319404d1ab9672eb1a340623e",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["currency-100"]
+      }
+    },
+    {
+      "id": "fae4dbb56638427fab322d0537887616",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["xpboots-5"]
+      }
+    },
+    {
+      "id": "f38cacec1c194abcb1fcc0a8a4e92f0b",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["smg-smg_tripz"]
+      }
+    },
+    {
+      "id": "58a7b5ffac6841aaa059838a6fe64054",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["armor-character_operator_legierung"]
+      }
+    },
+    {
+      "id": "6e3c98c398ef430eb9d73d34fa434ad4",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["battlerifle-battlerifle_dank"]
+      }
+    },
+    {
+      "id": "0702a621523340f8bba715829e76f4e1",
+      "requiredExp": 25000,
+      "rewards": {
+        "freerewards": ["drop-1"]
+      }
+    },
+    {
+      "id": "90a4a63e766f481fb90102fbf5255d20",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["currency-100"]
+      }
+    },
+    {
+      "id": "60c64bcb3f7f4ffd8c9e3559873201ca",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["bat-bat_arc"]
+      }
+    },
+    {
+      "id": "2d77b8f9f2034dbeb075bdc4c175886d",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["armor-character_misty_kel"]
+      }
+    },
+    {
+      "id": "cb4ae614e1b24ce7a08fe515e96e3481",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["portalgun-portalgun_operator_legierung"]
+      }
+    },
+    {
+      "id": "8bb25aa687d74bc9912d3014350f600a",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["banner-banner_elektro"]
+      }
+    },
+    {
+      "id": "53e129cae6934207a26562aa5f16784b",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["shotgun-shotgun_tripz"]
+      }
+    },
+    {
+      "id": "134d2318760948b882f6dfa01e104882",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["currency-100"]
+      }
+    },
+    {
+      "id": "990f727cf06f4ebc9e06e55cebed0215",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["spray-spray_vibefail"]
+      }
+    },
+    {
+      "id": "cfc8f3ca399c48b38fc93895a52e8783",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["armor-character_guardian_honeypot"]
+      }
+    },
+    {
+      "id": "fe87e8b2d5b649cf93322dcd97a044fb",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["nametag-nametag_betas2competitor"]
+      }
+    },
+    {
+      "id": "df00bd2644814319b74c4646e40c8185",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["plasmarifle-plasmarifle_chrysalis"]
+      }
+    },
+    {
+      "id": "2b7fbdc4e79442c78977ae66c5001d35",
+      "requiredExp": 25000,
+      "rewards": {
+        "freerewards": ["drop-1"]
+      }
+    },
+    {
+      "id": "8231304a30604aab9e95f573100ca1a8",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["banner-banner_tortuga"]
+      }
+    },
+    {
+      "id": "a81d9fcd43b347178a97f37653e88689",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["jetpack-jetpack_operator_legierung"]
+      }
+    },
+    {
+      "id": "99859f04d7504b9c8c472a0952ab2e94",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["bat-bat_motherboard"]
+      }
+    },
+    {
+      "id": "aa7386148156497c82878c8c1ae69dec",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["jetpack-jetpack_guardian_honeypot"]
+      }
+    },
+    {
+      "id": "2730bd48b1e44829bb69c8966c3810f9",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["xpboots-5"]
+      }
+    },
+    {
+      "id": "0c747ae9e3d547758fb1167497a2f410",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["currency-100"]
+      }
+    },
+    {
+      "id": "c8693344e931495abb9c296fd6af8bd4",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["assaultrifle-assaultrifle_scotch"]
+      }
+    },
+    {
+      "id": "a9bea51a41414724b414372bd39bdc4a",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["rocketlauncher-rocketlauncher_redspawn"]
+      }
+    },
+    {
+      "id": "1a194fb0db6143309cb77759db1007d7",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["portalgun-portalgun_guardian_honeypot"]
+      }
+    },
+    {
+      "id": "3fd1d36898da4db6b2f067e429038549",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["spray-spray_dipanddrip"]
+      }
+    },
+    {
+      "id": "c2eb25e67c1f491eaa838d203d8739e4",
+      "requiredExp": 25000,
+      "rewards": {
+        "freerewards": ["drop-1"]
+      }
+    },
+    {
+      "id": "2d120706d9e04da88bc03ba62b6215ad",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["pistol-pistol_abominable"]
+      }
+    },
+    {
+      "id": "f19727dec72a4f0aa71f5a95050036c6",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["armor-character_misty_rose"]
+      }
+    },
+    {
+      "id": "4901dd02213e4e459d955f072f2e8276",
+      "requiredExp": 25000,
+      "rewards": {
+        "freerewards": ["currency-100"]
+      }
+    },
+    {
+      "id": "77872aad43df44eaa0e0850b3e0b2e47",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["rocketlauncher-rocketlauncher_champain"]
+      }
+    },
+    {
+      "id": "770e39aad86b4ec8a80309e9735260e1",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["sniper-sniper_aurora"]
+      }
+    },
+    {
+      "id": "1cc3c9fa7f3f4fcfb0912e50cfea9802",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["armor-character_guardian_base"]
+      }
+    },
+    {
+      "id": "dfa165a047954d1ab3a214187c537ecf",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["smg-smg_barbecue"]
+      }
+    },
+    {
+      "id": "9a0275bce96e4322babcaf94268dd625",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["shotgun-shotgun_dank"]
+      }
+    },
+    {
+      "id": "4aa25fc49aa1440ebfd7c7415b2086eb",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["battlerifle-battlerifle_sonoran"]
+      }
+    },
+    {
+      "id": "43c9792c933d46698cc614dd91e233b8",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["jetpack-jetpack_guardian_base"]
+      }
+    },
+    {
+      "id": "da31e346e79f483f824b23e2c14f1b04",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["currency-100"]
+      }
+    },
+    {
+      "id": "47d1ea7fcc5b4f88abc48b81562509ef",
+      "requiredExp": 25000,
+      "rewards": {
+        "freerewards": ["drop-1"]
+      }
+    },
+    {
+      "id": "d9e157d5b3a94126b91486ac51f68415",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["pistol-pistol_motherboard"]
+      }
+    },
+    {
+      "id": "a3adb02441f149ef8775c442ed1bd578",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["smg-smg_squirt"]
+      }
+    },
+    {
+      "id": "5049e7ac6d57498fb34529891e5cad70",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["portalgun-portalgun_guardian_base"]
+      }
+    },
+    {
+      "id": "8a0c586ae8e74018a95cf34d701cb88b",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["plasmarifle-plasmarifle_scuttle"]
+      }
+    },
+    {
+      "id": "4ffe7a8b3efb4f7c881d4c1db66e2969",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["xpboots-5"]
+      }
+    },
+    {
+      "id": "566f7e02a19e46e992125fddbeba148d",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["railgun-railgun_arc"]
+      }
+    },
+    {
+      "id": "648a73ba68b847f7aebffeef85378b24",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["nametag-nametag_betas2allstar"]
+      }
+    },
+    {
+      "id": "63ddf49d13d34a98b5ec7e1638db6ad6",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["assaultrifle-assaultrifle_squirt"]
+      }
+    },
+    {
+      "id": "61e531dc86174b56b61643e44eaaebed",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["currency-100"]
+      }
+    },
+    {
+      "id": "a4f4ca7905cd448fa31df86696095a37",
+      "requiredExp": 25000,
+      "rewards": {
+        "premiumrewards": ["portal-portal_war"]
+      }
+    },
+    {
+      "id": "9c8ef154fb5f41e2862b948a3d92e809",
+      "requiredExp": 0,
+      "rewards": {
+        "premiumrewards": [
+          "armor-character_guardian_boujee",
+          "portalgun-portalgun_guardian_boujee",
+          "jetpack-jetpack_guardian_boujee",
+          "badge-badge_season2battlepass"
+        ]
+      }
+    }
+  ]
+}

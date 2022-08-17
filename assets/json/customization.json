@@ -1,0 +1,144 @@
+{
+  "namespace": "splitgate",
+  "customizations": {
+    "Badge": [
+      "Badge_DailyPlayStreak",
+      "Badge_None"
+    ],
+    "Banner": [
+      "Banner_Default"
+    ],
+    "NameTag": [
+      "NameTag_None"
+    ],
+    "Armor": [
+      "Character_T200_Base"
+    ],
+    "Pistol": [
+      "Pistol_Base"
+    ],
+    "Bat": [
+      "Bat_Base"
+    ],
+    "BattleRifle": [
+      "BattleRifle_Base"
+    ],
+    "Shotgun": [
+      "Shotgun_Base"
+    ],
+    "None": [],
+    "RocketLauncher": [
+      "RocketLauncher_Base"
+    ],
+    "Spray": [
+      "Spray_Audriix",
+      "Spray_Splitgate",
+      "Spray_SplitgateRetro",
+      "Service-Monitoring-0000000",
+      "Spray_DANGERKIDS"
+    ],
+    "Oddball": [
+      "Oddball_Base"
+    ],
+    "SMG": [
+      "SMG_Base"
+    ],
+    "PlasmaRifle": [
+      "PlasmaRifle_Base"
+    ],
+    "Railgun": [
+      "Railgun_Base"
+    ],
+    "Sniper": [
+      "Sniper_Base"
+    ],
+    "PortalGun": [
+      "PortalGun_TrueShot_Base"
+    ],
+    "AssaultRifle": [
+      "AssaultRifle_Base"
+    ],
+    "Portal": [
+      "Portal_Base"
+    ],
+    "Emote": [
+      "Emote_Director",
+      "Emote_Sassy",
+      "Emote_Welcome"
+    ],
+    "DMR": [
+      "DMR_Base"
+    ],
+    "Jetpack": [
+      "Jetpack_Warden_Base"
+    ]
+  },
+  "chosenCustomizations": {
+    "AssaultRifle": [
+      "AssaultRifle_Base"
+    ],
+    "BattleRifle": [
+      "BattleRifle_Base"
+    ],
+    "Sniper": [
+      "Sniper_Base"
+    ],
+    "Emote": [
+      "Emote_Welcome"
+    ],
+    "Bat": [
+      "Bat_Base"
+    ],
+    "Armor": [
+      "Character_T200_Base"
+    ],
+    "PortalGun": [
+      "PortalGun_TrueShot_Base"
+    ],
+    "Badge": [
+      "Badge_Level"
+    ],
+    "Banner": [
+      "Banner_Default"
+    ],
+    "DMR": [
+      "DMR_Base"
+    ],
+    "Jetpack": [
+      "Jetpack_Warden_Base"
+    ],
+    "NameTag": [
+      "NameTag_None"
+    ],
+    "Oddball": [
+      "Oddball_Base"
+    ],
+    "Pistol": [
+      "Pistol_Base"
+    ],
+    "PlasmaRifle": [
+      "PlasmaRifle_Base"
+    ],
+    "Portal": [
+      "Portal_Base"
+    ],
+    "Railgun": [
+      "Railgun_Base"
+    ],
+    "RocketLauncher": [
+      "RocketLauncher_Base"
+    ],
+    "SMG": [
+      "SMG_Base"
+    ],
+    "Shotgun": [
+      "Shotgun_Base"
+    ],
+    "Spray": [
+      "Spray_Splitgate"
+    ],
+    "None": [
+      ""
+    ]
+  }
+}

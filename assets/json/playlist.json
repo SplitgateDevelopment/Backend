@@ -1,0 +1,671 @@
+[
+  {
+    "name": "UNRANKED_TEAM_DEATHMATCH",
+    "state": {
+      "minProgressionLevel": 0,
+      "xpBoostPercentage": 0,
+      "gameModes": [
+        {
+          "gameMode": "TDM",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        }
+      ],
+      "maxPartySize": 4,
+      "matchmakingName": "CASUAL",
+      "isActive": true,
+      "isCrossplayRequired": false,
+      "isFeatured": false,
+      "isEligibleForHalfBotGames": true,
+      "isRanked": false,
+      "isWaitingArea": false
+    }
+  },
+  {
+    "name": "UNRANKED_TEAM_FIESTA",
+    "state": {
+      "minProgressionLevel": 0,
+      "xpBoostPercentage": 0,
+      "gameModes": [
+        {
+          "gameMode": "FSTDOM",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        },
+        {
+          "gameMode": "FSTKOTH",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        },
+        {
+          "gameMode": "TFST",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        }
+      ],
+      "maxPartySize": 4,
+      "matchmakingName": "CASUAL",
+      "isActive": true,
+      "isCrossplayRequired": false,
+      "isFeatured": false,
+      "isEligibleForHalfBotGames": true,
+      "isRanked": false,
+      "isWaitingArea": false
+    }
+  },
+  {
+    "name": "UNRANKED_TEAM_SNIPERS",
+    "state": {
+      "minProgressionLevel": 0,
+      "xpBoostPercentage": 0,
+      "gameModes": [
+        {
+          "gameMode": "SHOTSNIP",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        },
+        {
+          "gameMode": "SNIPS",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        }
+      ],
+      "maxPartySize": 4,
+      "matchmakingName": "CASUAL",
+      "isActive": true,
+      "isCrossplayRequired": false,
+      "isFeatured": false,
+      "isEligibleForHalfBotGames": true,
+      "isRanked": false,
+      "isWaitingArea": false
+    }
+  },
+  {
+    "name": "UNRANKED_TEAM_OBJECTIVE",
+    "state": {
+      "minProgressionLevel": 10,
+      "xpBoostPercentage": 0,
+      "gameModes": [
+        {
+          "gameMode": "HOTZ",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        },
+        {
+          "gameMode": "LOCK",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        },
+        {
+          "gameMode": "OCTF",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        },
+        {
+          "gameMode": "TOB",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        }
+      ],
+      "title": { "en": "Team Objective" },
+      "maxPartySize": 4,
+      "matchmakingName": "CASUAL",
+      "isActive": true,
+      "isCrossplayRequired": false,
+      "isFeatured": false,
+      "isEligibleForHalfBotGames": true,
+      "isRanked": false,
+      "isWaitingArea": false
+    }
+  },
+  {
+    "name": "UNRANKED_TEAM_TAKEDOWN",
+    "state": {
+      "minProgressionLevel": 10,
+      "xpBoostPercentage": 0,
+      "gameModes": [
+        {
+          "gameMode": "TD",
+          "minPlayer": 1,
+          "maxPlayer": 3,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [
+            "Simulation_Alpha",
+            "Simulation_Bravo",
+            "Simulation_Charlie",
+            "Simulation_Delta",
+            "Simulation_Echo",
+            "Simulation_Foxtrot",
+            "Simulation_Golf",
+            "Simulation_Hotel"
+          ],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        }
+      ],
+      "maxPartySize": 3,
+      "matchmakingName": "CASUAL",
+      "isActive": true,
+      "isCrossplayRequired": false,
+      "isFeatured": false,
+      "isEligibleForHalfBotGames": true,
+      "isRanked": false,
+      "isWaitingArea": false
+    }
+  },
+  {
+    "name": "UNRANKED_TEAM_RUMBLE",
+    "state": {
+      "minProgressionLevel": 10,
+      "xpBoostPercentage": 0,
+      "gameModes": [
+        {
+          "gameMode": "LTAG",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        },
+        {
+          "gameMode": "SB",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        },
+        {
+          "gameMode": "ZVIP",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        }
+      ],
+      "maxPartySize": 4,
+      "matchmakingName": "CASUAL",
+      "isActive": true,
+      "isCrossplayRequired": false,
+      "isFeatured": false,
+      "isEligibleForHalfBotGames": true,
+      "isRanked": false,
+      "isWaitingArea": false
+    }
+  },
+  {
+    "name": "UNRANKED_TEAM_SWAT",
+    "state": {
+      "minProgressionLevel": 15,
+      "xpBoostPercentage": 0,
+      "gameModes": [
+        {
+          "gameMode": "SWAT",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        },
+        {
+          "gameMode": "PSWAT",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        }
+      ],
+      "title": { "en": "Team SWAT" },
+      "maxPartySize": 4,
+      "matchmakingName": "CASUAL",
+      "isActive": true,
+      "isCrossplayRequired": false,
+      "isFeatured": false,
+      "isEligibleForHalfBotGames": false,
+      "isRanked": false,
+      "isWaitingArea": false
+    }
+  },
+  {
+    "name": "UNRANKED_TEAM_SIM",
+    "state": {
+      "minProgressionLevel": 15,
+      "xpBoostPercentage": 0,
+      "gameModes": [
+        {
+          "gameMode": "EVO",
+          "minPlayer": 1,
+          "maxPlayer": 3,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [
+            "Simulation_Alpha",
+            "Simulation_Bravo",
+            "Simulation_Charlie",
+            "Simulation_Delta",
+            "Simulation_Echo",
+            "Simulation_Foxtrot",
+            "Simulation_Golf",
+            "Simulation_Hotel"
+          ],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        },
+        {
+          "gameMode": "SD",
+          "minPlayer": 1,
+          "maxPlayer": 3,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [
+            "Simulation_Alpha",
+            "Simulation_Bravo",
+            "Simulation_Charlie",
+            "Simulation_Delta",
+            "Simulation_Echo",
+            "Simulation_Foxtrot",
+            "Simulation_Golf",
+            "Simulation_Hotel"
+          ],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        }
+      ],
+      "maxPartySize": 3,
+      "matchmakingName": "CASUAL",
+      "isActive": true,
+      "isCrossplayRequired": false,
+      "isFeatured": false,
+      "isEligibleForHalfBotGames": true,
+      "isRanked": false,
+      "isWaitingArea": false
+    }
+  },
+  {
+    "name": "UNRANKED_FREE_FOR_ALL",
+    "state": {
+      "minProgressionLevel": 15,
+      "xpBoostPercentage": 0,
+      "gameModes": [
+        {
+          "gameMode": "GG",
+          "minPlayer": 1,
+          "maxPlayer": 1,
+          "minTeam": 1,
+          "maxTeam": 8,
+          "frequency": 1,
+          "freeForAll": true,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        },
+        {
+          "gameMode": "IG",
+          "minPlayer": 1,
+          "maxPlayer": 1,
+          "minTeam": 1,
+          "maxTeam": 8,
+          "frequency": 1,
+          "freeForAll": true,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        },
+        {
+          "gameMode": "OITC",
+          "minPlayer": 1,
+          "maxPlayer": 1,
+          "minTeam": 1,
+          "maxTeam": 8,
+          "frequency": 1,
+          "freeForAll": true,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        },
+        {
+          "gameMode": "JUG",
+          "minPlayer": 1,
+          "maxPlayer": 8,
+          "minTeam": 1,
+          "maxTeam": 1,
+          "frequency": 1,
+          "freeForAll": true,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 360
+        }
+      ],
+      "maxPartySize": 4,
+      "matchmakingName": "CASUAL",
+      "isActive": true,
+      "isCrossplayRequired": false,
+      "isFeatured": false,
+      "isEligibleForHalfBotGames": false,
+      "isRanked": false,
+      "isWaitingArea": false
+    }
+  },
+  {
+    "name": "RANKED_TEAM_TAKEDOWN",
+    "state": {
+      "minProgressionLevel": 20,
+      "xpBoostPercentage": 0,
+      "gameModes": [
+        {
+          "gameMode": "RTD",
+          "minPlayer": 1,
+          "maxPlayer": 3,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [
+            "Simulation_Alpha",
+            "Simulation_Bravo",
+            "Simulation_Charlie",
+            "Simulation_Delta",
+            "Simulation_Echo",
+            "Simulation_Foxtrot",
+            "Simulation_Golf",
+            "Simulation_Hotel"
+          ],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 600
+        }
+      ],
+      "maxPartySize": 3,
+      "matchmakingName": "RANKED",
+      "isActive": true,
+      "isCrossplayRequired": true,
+      "isFeatured": false,
+      "isEligibleForHalfBotGames": false,
+      "isRanked": true,
+      "isWaitingArea": false
+    }
+  },
+  {
+    "name": "RANKED_TEAM_HARDCORE",
+    "state": {
+      "minProgressionLevel": 25,
+      "xpBoostPercentage": 0,
+      "gameModes": [
+        {
+          "gameMode": "RDOM",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 600
+        },
+        {
+          "gameMode": "RKOTH",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 600
+        },
+        {
+          "gameMode": "RTDM",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 600
+        },
+        {
+          "gameMode": "RHOTZ",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 600
+        },
+        {
+          "gameMode": "RLOCK",
+          "minPlayer": 1,
+          "maxPlayer": 4,
+          "minTeam": 1,
+          "maxTeam": 2,
+          "frequency": 1,
+          "freeForAll": false,
+          "includedMaps": [],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 600
+        }
+      ],
+      "maxPartySize": 4,
+      "matchmakingName": "RANKED",
+      "isActive": true,
+      "isCrossplayRequired": true,
+      "isFeatured": false,
+      "isEligibleForHalfBotGames": false,
+      "isRanked": true,
+      "isWaitingArea": false
+    }
+  },
+  {
+    "name": "WAITING_AREA_RANKED",
+    "state": {
+      "minProgressionLevel": 0,
+      "xpBoostPercentage": 0,
+      "gameModes": [
+        {
+          "gameMode": "FSTRWA",
+          "minPlayer": 1,
+          "maxPlayer": 8,
+          "minTeam": 1,
+          "maxTeam": 1,
+          "frequency": 1,
+          "freeForAll": true,
+          "includedMaps": [
+            "Simulation_Alpha",
+            "Simulation_Bravo",
+            "Simulation_Charlie",
+            "Simulation_Delta",
+            "Simulation_Echo",
+            "Simulation_Foxtrot",
+            "Simulation_Golf",
+            "Simulation_Hotel"
+          ],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 0
+        }
+      ],
+      "maxPartySize": 4,
+      "matchmakingName": "RANKED",
+      "waitingAreaTimeout": 3600,
+      "isActive": true,
+      "isCrossplayRequired": false,
+      "isFeatured": false,
+      "isEligibleForHalfBotGames": false,
+      "isRanked": true,
+      "isWaitingArea": true
+    }
+  },
+  {
+    "name": "WAITING_AREA_UNRANKED",
+    "state": {
+      "minProgressionLevel": 0,
+      "xpBoostPercentage": 0,
+      "gameModes": [
+        {
+          "gameMode": "FSTWA",
+          "minPlayer": 1,
+          "maxPlayer": 8,
+          "minTeam": 1,
+          "maxTeam": 1,
+          "frequency": 1,
+          "freeForAll": true,
+          "includedMaps": [
+            "Simulation_Alpha",
+            "Simulation_Bravo",
+            "Simulation_Charlie",
+            "Simulation_Delta",
+            "Simulation_Echo",
+            "Simulation_Foxtrot",
+            "Simulation_Golf",
+            "Simulation_Hotel"
+          ],
+          "excludedMaps": [],
+          "placementMaps": [],
+          "matchTimeLimitInSeconds": 0
+        }
+      ],
+      "maxPartySize": 5,
+      "matchmakingName": "CASUAL",
+      "waitingAreaTimeout": 3600,
+      "isActive": true,
+      "isCrossplayRequired": false,
+      "isFeatured": false,
+      "isEligibleForHalfBotGames": false,
+      "isRanked": false,
+      "isWaitingArea": true
+    }
+  }
+]
