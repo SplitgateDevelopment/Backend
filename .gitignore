@@ -129,6 +129,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-assets/json/sections.json
-assets/json/items.json
-assets/json/updateCustomization.js
+scripts/bin/*
