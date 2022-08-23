@@ -69,10 +69,23 @@ type item = {
     "updatedAt": "2022-08-14T20:49:02.320Z"
 }
 
+type feedItem = {
+    startAt: string;
+    endAt: string;
+    title: { en: string };
+    description: { en: string };
+    imageUrl: string;
+    actionType: string;
+    actionTitle: { en: string };
+    actionValue: string;
+    draft: boolean;
+};
+
 export {
     server,
     challenge,
     challengesKey,
     GameData,
     item,
+    feedItem,
 }
