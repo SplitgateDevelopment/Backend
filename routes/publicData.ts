@@ -2,6 +2,7 @@ import Route from "../core/Route";
 import { Request, Response, Router } from "express";
 import playlistJSON from "../assets/json/playlist.json";
 import challenges from "../assets/json/challenges.json";
+import badges from "../assets/json/badges.json";
 import config from "../config";
 import { challenge } from "../typings/Game";
 import { userChallenge } from "../typings/User";
@@ -89,6 +90,16 @@ router.get(`/users/:id/challenges/`, async (req: Request, res: Response) => {
 
 router.post('/users/:id/challenges/claim-reward', async (req: Request, res: Response) => {
     return res.status(204);
+});
+
+router.get('/badges/users', async (req: Request, res: Response) => {
+    //set badge visibility to "Hidden" in order to hide it
+    return res.status(200).json({
+        [req.query.userIds as string]: {
+            ...badges,
+            userId: req.query.userIds,
+        }
+    });
 });
 
 export default new Route({
