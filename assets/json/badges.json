@@ -1,0 +1,282 @@
+{
+  "badgeProgress": {
+    "Badge_PerfectTakedowns": {
+      "badge": {
+        "tierTargets": [5, 30, 100],
+        "visibility": "Visible"
+      },
+      "currentTier": 2,
+      "nextTierProgress": {
+        "tier": 2,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_KillsThroughPortal": {
+      "badge": {
+        "tierTargets": [50, 250, 1000],
+        "visibility": "Visible"
+      },
+      "currentTier": 2,
+      "nextTierProgress": {
+        "tier": 2,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_Level": {
+      "badge": {
+        "tierTargets": [
+          1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 101, 201, 301, 401, 501,
+          601, 701, 801, 901, 1001, 1101, 1201, 1301, 1401, 1501
+        ],
+        "visibility": "Visible"
+      },
+      "currentTier": 25,
+      "nextTierProgress": {
+        "tier": 25,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_Season2BattlePass": {
+      "badge": {
+        "tierTargets": [100],
+        "visibility": "Visible"
+      },
+      "currentTier": 0,
+      "nextTierProgress": {
+        "tier": 0,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_RankedGamesWon": {
+      "badge": {
+        "tierTargets": [10, 50, 250],
+        "visibility": "Visible"
+      },
+      "currentTier": 2,
+      "nextTierProgress": {
+        "tier": 2,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_RankedKills": {
+      "badge": {
+        "tierTargets": [100, 750, 2500],
+        "visibility": "Visible"
+      },
+      "currentTier": 2,
+      "nextTierProgress": {
+        "tier": 2,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_HeadshotKills": {
+      "badge": {
+        "tierTargets": [50, 500, 1000],
+        "visibility": "Visible"
+      },
+      "currentTier": 2,
+      "nextTierProgress": {
+        "tier": 2,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_EnemyPortalsDestroyed": {
+      "badge": {
+        "tierTargets": [20, 100, 500],
+        "visibility": "Visible"
+      },
+      "currentTier": 2,
+      "nextTierProgress": {
+        "tier": 2,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_Kills": {
+      "badge": {
+        "tierTargets": [100, 1000, 5000],
+        "visibility": "Visible"
+      },
+      "currentTier": 2,
+      "nextTierProgress": {
+        "tier": 2,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_TopPointsInMatch": {
+      "badge": {
+        "tierTargets": [30, 100, 300],
+        "visibility": "Visible"
+      },
+      "currentTier": 2,
+      "nextTierProgress": {
+        "tier": 2,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_GamesWon": {
+      "badge": {
+        "tierTargets": [25, 100, 500],
+        "visibility": "Visible"
+      },
+      "currentTier": 2,
+      "nextTierProgress": {
+        "tier": 2,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_DailyPlayStreak": {
+      "badge": {
+        "tierTargets": [0, 1, 3, 5, 7, 10, 25, 50, 75, 100],
+        "visibility": "Visible"
+      },
+      "currentTier": 9,
+      "nextTierProgress": {
+        "tier": 9,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_QuadKills": {
+      "badge": {
+        "tierTargets": [5, 25, 100],
+        "visibility": "Visible"
+      },
+      "currentTier": 2,
+      "nextTierProgress": {
+        "tier": 2,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_MeleeKills": {
+      "badge": {
+        "tierTargets": [15, 50, 150],
+        "visibility": "Visible"
+      },
+      "currentTier": 2,
+      "nextTierProgress": {
+        "tier": 2,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_DealDamage": {
+      "badge": {
+        "tierTargets": [3000, 4000, 5000],
+        "visibility": "Visible"
+      },
+      "currentTier": 2,
+      "nextTierProgress": {
+        "tier": 2,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_FirstBloodMedals": {
+      "badge": {
+        "tierTargets": [5, 25, 50],
+        "visibility": "Visible"
+      },
+      "currentTier": 2,
+      "nextTierProgress": {
+        "tier": 2,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_GoThroughEnemyPortals": {
+      "badge": {
+        "tierTargets": [10, 50, 100],
+        "visibility": "Visible"
+      },
+      "currentTier": 2,
+      "nextTierProgress": {
+        "tier": 2,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_PortalKills": {
+      "badge": {
+        "tierTargets": [1, 5, 10],
+        "visibility": "Visible"
+      },
+      "currentTier": 2,
+      "nextTierProgress": {
+        "tier": 2,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_GetKillWithAllWeapons": {
+      "badge": {
+        "tierTargets": [10],
+        "visibility": "Visible"
+      },
+      "currentTier": 0,
+      "nextTierProgress": {
+        "tier": 0,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_OnlyOneHoldingOddball": {
+      "badge": {
+        "tierTargets": [1],
+        "visibility": "Visible"
+      },
+      "currentTier": 0,
+      "nextTierProgress": {
+        "tier": 0,
+        "target": 0,
+        "progress": 0
+      }
+    },
+    "Badge_WinMatchesWithoutDying": {
+      "badge": {
+        "tierTargets": [5, 25, 50],
+        "visibility": "Visible"
+      },
+      "currentTier": 2,
+      "nextTierProgress": {
+        "tier": 2,
+        "target": 0,
+        "progress": 0
+      }
+    }
+  },
+  "badgeTiers": {
+    "Badge_GoThroughEnemyPortals": 2,
+    "Badge_WinMatchesWithoutDying": 2,
+    "Badge_DealDamage": 2,
+    "Badge_PortalKills": 2,
+    "Badge_Season2BattlePass": 0,
+    "Badge_Level": 25,
+    "Badge_RankedGamesWon": 2,
+    "Badge_RankedKills": 2,
+    "Badge_EnemyPortalsDestroyed": 2,
+    "Badge_HeadshotKills": 2,
+    "Badge_GetKillWithAllWeapons": 0,
+    "Badge_OnlyOneHoldingOddball": 0,
+    "Badge_QuadKills": 2,
+    "Badge_PerfectTakedowns": 2,
+    "Badge_KillsThroughPortal": 2,
+    "Badge_MeleeKills": 2,
+    "Badge_Kills": 2,
+    "Badge_FirstBloodMedals": 2,
+    "Badge_TopPointsInMatch": 2,
+    "Badge_DailyPlayStreak": 9,
+    "Badge_GamesWon": 2
+  }
+}
