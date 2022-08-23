@@ -1,6 +1,7 @@
 import Route from "../core/Route";
 import { Request, Response, Router } from "express";
 import pkg from "../package.json";
+import { feedItem } from "../typings/Game";
 
 const router = Router();
 
@@ -31,7 +32,15 @@ router.get('/streamStatus', (req: Request, res: Response) => {
 });
 
 router.get('/feedStatus', (req: Request, res: Response) => {
-    return res.status(200).json([
+    const images = [
+        "https://github.githubassets.com/images/icons/emoji/trollface.png",
+        "https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/nerd-face_1f913.png",
+        "https://github.githubassets.com/images/icons/emoji/neckbeard.png",
+        "https://github.githubassets.com/images/icons/emoji/shipit.png"
+    ];
+
+    const feed: feedItem[] = [];
+    images.forEach((img) => feed.push(
         {
             "startAt": new Date().toISOString(),
             "endAt": new Date('2030-01-20').toISOString(),
@@ -41,9 +50,9 @@ router.get('/feedStatus', (req: Request, res: Response) => {
             },
             "description":
             {
-                "en": `Wow really cool server\n\nVersion: ${pkg.version}`
+                "en": `${pkg.description}\n\nVersion: ${pkg.version}`
             },
-            "imageUrl": 'https://github.githubassets.com/images/icons/emoji/trollface.png',            
+            "imageUrl": img,            
             "actionType": "URL",
             "actionTitle":
             {
@@ -52,7 +61,9 @@ router.get('/feedStatus', (req: Request, res: Response) => {
             "actionValue": "https://www.github.com/splitgatedevelopment",
             "draft": false
         }
-    ]);
+    ));
+
+    return res.status(200).json(feed);
 });
 
 export default new Route({
