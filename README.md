@@ -19,7 +19,7 @@
   
   • Make sure every file in `/assets/json/` is in `/dist/assets/json`, if not copy them
   
-  • Set proxy in the settings app to `127.0.0.1:5005`
+  • Set proxy in the settings app to `127.0.0.1:8080`
   
   • Run proxy.py via the `mitmdump -s proxy.py -k` **([mitmproxy](https://mitmproxy.org/) is required)**
   
