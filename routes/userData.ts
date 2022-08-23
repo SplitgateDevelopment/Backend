@@ -10,6 +10,7 @@ const cosmetics = cosmeticsJSON as {[key: string]: string[]};
 const router = Router();
 const { drops, coins, ids } = config.userConfig;
 const customizationPath = join(__dirname, '../assets/json/customization.json');
+const excludedDrops: string[] = ["Badge", "Banner", "NameTag", "None"];
 
 router.get(`/:id/drops`, (req: Request, res: Response) => {
     return res.status(200).json({
@@ -22,7 +23,7 @@ router.get(`/:id/drops`, (req: Request, res: Response) => {
 router.post(`/:id/drops/open`, async (req: Request, res: Response) => {
     const { default: customization} = await import(customizationPath);
 
-    const keys = Object.keys(cosmetics);
+    const keys = Object.keys(cosmetics).filter((key: string) => !excludedDrops.includes(key));
     let randomKey = Utils.randomArrayElement(keys);
     let randomCosmetic = Utils.randomArrayElement(cosmetics[randomKey]);
 
