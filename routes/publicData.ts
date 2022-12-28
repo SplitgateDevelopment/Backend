@@ -3,6 +3,7 @@ import { Request, Response, Router } from "express";
 import playlistJSON from "../assets/json/playlist.json";
 import challenges from "../assets/json/challenges.json";
 import badges from "../assets/json/badges.json";
+import stats from "../assets/json/stats.json";
 import config from "../config";
 import { challenge } from "../typings/Game";
 import { userChallenge } from "../typings/User";
@@ -53,19 +54,15 @@ router.get('/seasons/current/name', (req: Request, res: Response) => {
     .send(`season${config.gameConfig.seasonNumber}`);
 });
 
-router.get(`/users/:id/race?platform=:platform`, async (req: Request, res: Response) => {
+router.get(`/users/:id/race`, async (req: Request, res: Response) => {
     return res.status(200).json({
         bestTimes: {},
-        platform: req.params.platform ?? 'STEAM',
+        platform: req.query.platform ?? 'STEAM',
         userId: req.params.id
     });
 })
 
 router.post(`/users/:id/race`, async (req: Request, res: Response) => {
-    return res.status(204);
-})
-
-router.get(`/users/:id/race`, async (req: Request, res: Response) => {
     return res.status(204);
 })
 
@@ -99,6 +96,46 @@ router.get('/badges/users', async (req: Request, res: Response) => {
             ...badges,
             userId: req.query.userIds,
         }
+    });
+});
+
+router.get('/stats/users/account', async (req: Request, res: Response) => {
+    stats.seasonStats[0].seasonName = `season${config.gameConfig.seasonNumber}`;
+    return res.status(200).json({
+        [req.query.userIds as string]: {
+            ...stats,
+            userId: req.query.userIds,
+        }
+    });
+});
+
+router.get('/users/:id/seasonreward', async (req: Request, res: Response) => {
+    return res.status(200).json({
+        level: 0,
+        winCount: 0
+    });
+});
+
+router.get('/users/:id/dailyPlayStreak', async (req: Request, res: Response) => {
+    return res.status(200).json({
+        "userId": req.params.id,
+        "value":0,
+        "xpBoostPercentage":0,
+        "previousValue":0,
+        "previousValueExpiresAtMs":0,
+        "hasPlayedToday": true,
+    });
+});
+
+router.get('/users/:id/dailyCheckIn/status', async (req: Request, res: Response) => {
+    const today = new Date().getDay();
+    const day = today == 0 ? 7 : today;
+
+    return res.status(200).json({
+        "dayOfWeek": day,
+        "daysClaimedCount": 0,
+        "daysMissedCount": day-1,
+        "weekExpiresAtMs": Date.now() + (7 - today * 24 * 60 * 60 * 1000),
     });
 });
 
