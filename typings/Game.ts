@@ -65,8 +65,8 @@ type item = {
     },
     "region": "US",
     "language": "en",
-    "createdAt": "2022-07-28T04:01:31.876Z",
-    "updatedAt": "2022-08-14T20:49:02.320Z"
+    "createdAt": string,
+    "updatedAt": string,
 }
 
 type feedItem = {
@@ -81,6 +81,53 @@ type feedItem = {
     draft: boolean;
 };
 
+type viewInfo = {
+    "title": string,
+    "viewId": string,
+    "namespace": string,
+    "name": string,
+    "displayOrder": number,
+    createdAt?: string,
+    updatedAt?: string,
+}
+
+type viewItem = {
+    "title": string,
+    "itemId": string,
+    "sku": string,
+    "namespace": "splitgate",
+    "name": string,
+    "entitlementType": string,
+    "categoryPath": string,
+    "status": string,
+    "listable": boolean,
+    "purchasable": boolean,
+    "itemType": string,
+    "thumbnailUrl": string,
+    "regionData": [
+      {
+        "price": number,
+        "discountPercentage": number,
+        "discountAmount": number,
+        "discountedPrice": number,
+        "currencyCode": "SC",
+        "currencyType": "VIRTUAL",
+        "currencyNamespace": "splitgate"
+      }
+    ],
+    "maxCountPerUser": 1,
+    "maxCount": -1,
+    "displayOrder": number,
+    "ext": { "meshName": string },
+    "rarity": string,
+    "customizationType": string,
+    "availability": { "availability": string },
+    "region": string,
+    "language": string,
+    updatedAt?: string,
+    createdAt?: string,
+};
+
 export {
     server,
     challenge,
@@ -88,4 +135,6 @@ export {
     GameData,
     item,
     feedItem,
+    viewInfo,
+    viewItem,
 }
