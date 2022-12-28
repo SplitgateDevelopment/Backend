@@ -5,6 +5,12 @@ type eventHandler = {
     handler: (server: Server, ...args: any[]) => void;
 }
 
+type wsMessage = {
+    type: string;
+    [key: string]: any;
+}
+
 export {
-    eventHandler
+    eventHandler,
+    wsMessage,
 }
