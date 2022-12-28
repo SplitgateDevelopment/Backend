@@ -14,6 +14,7 @@ class Server {
     wss: WebSocket.Server;
     wsEvents: eventHandler[];
     server: http.Server;
+    partyId: string;
     constructor(config: Config) {
         this.app = express();
         this.config = config;
