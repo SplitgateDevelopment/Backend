@@ -1,0 +1,46 @@
+{
+  "title": "Daily Items",
+  "sectionId": "abc",
+  "namespace": "splitgate",
+  "name": "Daily Items",
+  "type": "Small",
+  "active": true,
+  "itemIds": ["456"],
+  "items": [
+    {
+      "title": "Poker",
+      "itemId": "456",
+      "sku": "SMG-SMG_Poker",
+      "namespace": "splitgate",
+      "name": "Poker",
+      "entitlementType": "DURABLE",
+      "categoryPath": "/Customization/SMG",
+      "status": "ACTIVE",
+      "listable": true,
+      "purchasable": true,
+      "itemType": "CUSTOMIZATION",
+      "thumbnailUrl": "",
+      "regionData": [
+        {
+          "price": 900,
+          "discountPercentage": 0,
+          "discountAmount": 0,
+          "discountedPrice": 800,
+          "currencyCode": "SC",
+          "currencyType": "VIRTUAL",
+          "currencyNamespace": "splitgate"
+        }
+      ],
+      "maxCountPerUser": 1,
+      "maxCount": -1,
+      "displayOrder": 0,
+      "ext": { "meshName": "" },
+      "rarity": "Epic",
+      "customizationType": "SMG",
+      "availability": { "availability": "Normal" },
+      "region": "US",
+      "language": "en"
+    }
+  ],
+  "displayOrder": 0
+}

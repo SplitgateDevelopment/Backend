@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Daily Items",
+    "viewId": "view-daily-items",
+    "namespace": "splitgate",
+    "name": "Daily Items",
+    "displayOrder": 2
+  }
+]

@@ -1,0 +1,45 @@
+{
+    "title": "Elevate",
+    "itemId": "456",
+    "sku": "AssaultRifle-AssaultRifle_Elevate",
+    "namespace": "splitgate",
+    "name": "Elevate",
+    "entitlementType": "DURABLE",
+    "categoryPath": "/Customization/AssaultRifle",
+    "status": "ACTIVE",
+    "listable": true,
+    "purchasable": true,
+    "itemType": "CUSTOMIZATION",
+    "thumbnailUrl": "",
+    "regionData":
+    [
+        {
+            "price": 999999,
+            "discountPercentage": 0,
+            "discountAmount": 0,
+            "discountedPrice": 999,
+            "currencyCode": "SC",
+            "currencyType": "VIRTUAL",
+            "currencyNamespace": "splitgate"
+        }
+    ],
+    "boundItemIds":
+    [
+        ""
+    ],
+    "maxCountPerUser": 1,
+    "maxCount": -1,
+    "displayOrder": 0,
+    "ext":
+    {
+        "meshName": ""
+    },
+    "rarity": "Epic",
+    "customizationType": "AssaultRifle",
+    "availability":
+    {
+        "availability": "Normal"
+    },
+    "region": "US",
+    "language": "en",
+}
