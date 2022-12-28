@@ -1,5 +1,6 @@
 import { IncomingMessage } from "http";
 import { WebSocket } from "ws";
+import Utils from "../../core/Utils";
 import { eventHandler } from "../../typings/WS";
 
 export default {
@@ -9,6 +10,16 @@ export default {
         
         server.wsEvents.forEach(event => {
             ws.on(event.name || "", (...args) => event.handler(server, ws, ...args));
+        });
+
+        Utils.sendWS(ws, {
+            type: "connectNotif",
+            lobbySessionID: Utils.randomString(10),
+        });
+
+        Utils.sendWS(ws, {
+            type: "systemComponentsStatus",
+            components: JSON.stringify({"chat":true})
         });
     }
 } as eventHandler
