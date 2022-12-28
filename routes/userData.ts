@@ -41,19 +41,37 @@ router.post(`/:id/drops/open`, async (req: Request, res: Response) => {
     });
 });
 
-router.get(`/:id/wallets/SC`, (req: Request, res: Response) => {
+router.get(`/:id/wallets/:currency`, (req: Request, res: Response) => {
     return res.status(200).json({
         "id": Utils.randomString(10),
         "namespace": "splitgate",
         "userId": req.params.id,
-        "currencyCode": "SC",
-        "currencySymbol": "SC",
+        "currencyCode": req.params.currency,
+        "currencySymbol": req.params.currency,
         "balance": coins || 99999999,
         "earnedBalance": coins || 99999999,
         "timeLimitedBalances": [],
         "createdAt": new Date().toISOString(),
         "updatedAt": new Date().toISOString(),
         "status": "ACTIVE"
+    });
+});
+
+router.get(`/:id/wallets/:currency/transactions`, (req: Request, res: Response) => {
+    return res.status(200).json({
+        data: [{
+            "namespace": "splitgate",
+            "balanceSource": "REWARD",
+            "userId": req.params.id,
+            "currencyCode": req.params.currency,
+            "ammount": coins || 99999999,
+            "operator": `splitgate:${req.params.id}`,
+            "walletAction": "CREDIT",
+            "walletId": Utils.randomString(10),
+            "createdAt": new Date().toISOString(),
+            "updatedAt": new Date().toISOString(),
+        }],
+        paging: {},
     });
 });
 
@@ -105,16 +123,56 @@ router.post(`/:id/race/friends/leaderboard`, async (req: Request, res: Response)
     ]);
 })
 
-router.put('/:id/iap/amazon/sync', async (req: Request, res: Response) => {
-    return res.status(204);
+router.put('/:id/iap/amazon/sync', (req: Request, res: Response) => {
+    return res.status(204).end();
 });
 
-router.put('/:id/iap/steam/sync', async (req: Request, res: Response) => {
-    return res.status(204);
+router.put('/:id/iap/twitch/sync', (req: Request, res: Response) => {
+    return res.status(204).end();
 });
 
-router.put('/:id/dlc/steam/sync', async (req: Request, res: Response) => {
-    return res.status(204);
+router.put('/:id/iap/steam/sync', (req: Request, res: Response) => {
+    return res.status(204).end();
+});
+
+router.put('/:id/dlc/steam/sync', (req: Request, res: Response) => {
+    return res.status(204).end();
+});
+
+router.get('/:id/orders', (req: Request, res: Response) => {
+    return res.json({
+        data: [{
+            orderNo: Utils.randomString(10),
+            userId: req.params.id,
+            itemId: Utils.randomString(10),
+            sandbox: false,
+            quantity: Utils.randomInt(1, 50),
+            status: "FULFILLED",
+            createdTime: new Date().toISOString(),
+            chargedTime: new Date().toISOString(),
+            fulfilledTime: new Date().toISOString(),
+            expireTime: new Date().toISOString(),
+            totalTax: 0,
+            totalPrice: Utils.randomInt(0, 999),
+            subtotalPrice: Utils.randomInt(0, 999),
+            currency: { currencyCode: "SC", currencySymbol: "SC"},
+            itemSnapshot: {
+                itemId: Utils.randomString(10),
+                sku: "vbucks",
+                name: "V-Bucks",
+                title: "V-Bucks",
+                rarity: "Legendary",
+                itemType: "Item",
+                listable: true,
+                purchasable: true,
+            }
+        }],
+        paging: {},
+    });
+});
+
+router.post('/:id/orders', (req: Request, res: Response) => {
+    return res.status(200);
 });
 
 export default new Route({
