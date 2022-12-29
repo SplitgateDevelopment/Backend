@@ -11,7 +11,7 @@ router.get('/', (req: Request, res: Response) => {
 });
 
 router.get('/config', (req: Request, res: Response) => {
-    return config.userConfig || {};
+    return res.json(config || {});
 });
 
 export default new Route({
