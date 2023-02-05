@@ -19,9 +19,17 @@
   
   • Make sure every file from `/assets/json/` is in `/dist/assets/json`, if not copy them
   
-  • Set proxy in the settings app to `127.0.0.1:8080`
+  • **Proxy**
   
-  • Run proxy.py via the `mitmdump -s proxy.py -k` **([mitmproxy](https://mitmproxy.org/) is required)**
+  ∘ Use this **[fiddler](https://www.telerik.com/download/fiddler) rule:**
+    
+      Match: regex:(.*)splitgate.accelbyte.io/(.*)
+      Action: http://localhost:{portOfTheExpressServer}/$2
+  OR
+    
+  ∘ Set proxy in the settings app to `127.0.0.1:8080`
+ 
+  ∘ Run proxy.py via the `mitmdump -s proxy.py -k` **([mitmproxy](https://mitmproxy.org/) is required)**
   
   • Run the server via the `node .` command
   
