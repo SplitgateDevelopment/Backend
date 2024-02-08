@@ -32,15 +32,19 @@ const loginData = {
     "xuid": ""
 };
 
-router.post('/platforms/steam/token', (req: Request, res: Response) => {
+router.post('/oauth/platforms/steam/token', (req: Request, res: Response) => {
     return res.status(200).json(loginData);
 });
 
-router.post('/token', (req: Request, res: Response) => {
+router.post('/oauth/token', (req: Request, res: Response) => {
     return res.status(200).json(loginData);
+});
+
+router.post('/logout', (req: Request, res: Response) => {
+    return res.status(204).end();
 });
 
 export default new Route({
-    url: '/iam/v3/oauth',
+    url: '/iam/v3',
     router,
 })
