@@ -1,6 +1,6 @@
-import { Config } from "./types/Config";
+import { Config } from "@/types/Config";
 
-const config: Config = Object.freeze({
+const config = {
     port: 5005,
     userConfig: {
         username: 'X_PADO_X',
@@ -47,6 +47,6 @@ const config: Config = Object.freeze({
         seasonNumber: 999,
         challengesStatus: 'COMPLETED' 
     }
-});
+} as const satisfies Config;
 
 export default config;
