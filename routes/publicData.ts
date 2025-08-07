@@ -5,8 +5,8 @@ import challenges from "../assets/json/challenges.json";
 import badges from "../assets/json/badges.json";
 import stats from "../assets/json/stats.json";
 import config from "../config";
-import { challenge } from "../typings/Game";
-import { userChallenge } from "../typings/User";
+import { challenge } from "../types/Game";
+import { userChallenge } from "../types/User";
 
 const router = Router();
 const { activeChallenges, challengesStatus } = config.gameConfig;

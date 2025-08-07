@@ -1,6 +1,6 @@
 import Route from "../core/Route";
 import { Request, Response, Router } from "express";
-import { viewInfo, viewItem } from "../typings/Game";
+import { viewInfo, viewItem } from "../types/Game";
 
 const router = Router();
 

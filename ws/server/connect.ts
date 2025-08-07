@@ -1,7 +1,7 @@
 import { IncomingMessage } from "http";
 import { WebSocket } from "ws";
 import Utils from "../../core/Utils";
-import { eventHandler } from "../../typings/WS";
+import { eventHandler } from "../../types/WS";
 
 export default {
     name: "connection",

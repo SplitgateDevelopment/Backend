@@ -1,4 +1,4 @@
-import { Config } from "./typings/Config";
+import { Config } from "./types/Config";
 
 const config: Config = Object.freeze({
     port: 5005,

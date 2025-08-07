@@ -1,4 +1,4 @@
-import { eventHandler } from "../../typings/WS";
+import { eventHandler } from "../../types/WS";
 
 export default {
     name: "close",

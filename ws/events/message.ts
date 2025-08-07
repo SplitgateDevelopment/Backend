@@ -1,5 +1,5 @@
 import Utils from "../../core/Utils";
-import { eventHandler } from "../../typings/WS";
+import { eventHandler } from "../../types/WS";
 import badges from '../../assets/json/badges.json';
 
 export default {

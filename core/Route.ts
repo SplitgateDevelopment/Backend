@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { IRoute, RouteOptions } from '../typings/Route';
+import { IRoute, RouteOptions } from '../types/Route';
 
 class Route implements IRoute {
     name?: string;

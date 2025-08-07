@@ -1,7 +1,7 @@
 import Route from "../core/Route";
 import { Request, Response, Router } from "express";
 import pkg from "../package.json";
-import { feedItem } from "../typings/Game";
+import { feedItem } from "../types/Game";
 
 const router = Router();
 

@@ -1,5 +1,5 @@
 import WebSocket from "ws";
-import { wsMessage } from "../typings/WS";
+import { wsMessage } from "../types/WS";
 
 class Utils {
     static randomInt(min: number, max: number): number {

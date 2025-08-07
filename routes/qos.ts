@@ -1,7 +1,7 @@
 import Route from "../core/Route";
 import { Request, Response, Router } from "express";
 import servers from "../assets/json/servers.json";
-import { server } from "../typings/Game";
+import { server } from "../types/Game";
 
 const router = Router();
 
