@@ -37,6 +37,6 @@
 
 - To update cosmetics:
 
-  - Via **[FModel](https://fmodel.app)**, use "Save Folder's Packages Properties" feature on `PortalWars/Content` folder, then run `bun scripts/fillCosmeticsFromFModel.ts`
+  - Grab Splitgate AES key using **[this tool](https://github.com/GHFear/AESDumpster)**, then via **[FModel](https://fmodel.app)**, load aes key and use "Save Folder's Packages Properties" feature on `PortalWars/Content` folder; then run `bun scripts/fillCosmeticsFromFModel.ts`
     
   - Sniff http calls made to sections and items, merge them together in `sections.json` and `items.json` files placed in `scripts/bin`, then run `bun scripts/updateCosmeticsFromItems.ts`
