@@ -37,6 +37,6 @@
 
 - To update cosmetics:
 
-  - Via **[FModel](https://fmodel.app)**, use "Save Folder's Packages Properties" feature on `PortalWars/Content` folder, then run `bun scripts/fillCosmeticsFromFModel.js`
+  - Via **[FModel](https://fmodel.app)**, use "Save Folder's Packages Properties" feature on `PortalWars/Content` folder, then run `bun scripts/fillCosmeticsFromFModel.ts`
     
-  - Sniff http calls made to sections and items, merge them together in `sections.json` and `items.json` files placed in `scripts/bin`, then run `bun scripts/updateCosmeticsFromItems.js`
+  - Sniff http calls made to sections and items, merge them together in `sections.json` and `items.json` files placed in `scripts/bin`, then run `bun scripts/updateCosmeticsFromItems.ts`
