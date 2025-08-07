@@ -6,7 +6,9 @@
   "private": true,
   "scripts": {
     "start": "bun .",
-    "dev": "bun --hot ."
+    "dev": "bun --hot .",
+		"lint": "biome check .",
+		"lint:fix": "biome check . --write"
   },
   "keywords": [
     "splitgate",
@@ -17,6 +19,7 @@
   "packageManager": "bun@1.12.0",
   "license": "MIT",
   "devDependencies": {
+    "@biomejs/biome": "2.1.4",
     "@types/bun": "latest",
     "typescript": "^5.9.2"
   },
