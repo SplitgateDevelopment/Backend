@@ -1,7 +1,6 @@
 import { Config } from "@/types/Config";
 
 const config = {
-    port: 5005,
     userConfig: {
         username: 'X_PADO_X',
         coins: 999999999,

@@ -1,16 +1,7 @@
-import Server from "../core/Server";
+import { WSEvents } from "hono/ws";
 
-type eventHandler = {
-    name?: string;
-    handler: (server: Server, ...args: any[]) => void;
-}
+export type WebSocketEvent<E extends keyof WSEvents> = NonNullable<WSEvents<Bun.ServerWebSocket<undefined>>[E]>;
 
-type wsMessage = {
+export interface SplitgateWSMessage extends Record<string, any> {
     type: string;
-    [key: string]: any;
-}
-
-export {
-    eventHandler,
-    wsMessage,
 }

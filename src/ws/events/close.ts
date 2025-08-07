@@ -1,8 +1,7 @@
-import { eventHandler } from "../../types/WS";
+import { WebSocketEvent } from "@/types/WS";
 
-export default {
-    name: "close",
-    handler: () => {
-        console.log(`[WS]`, `Connection closed 📶`);
-    }
-} as eventHandler
+const onClose: WebSocketEvent<'onClose'> = () => {
+    console.log(`[WS]`, `Connection closed 📶`);
+}
+
+export default onClose

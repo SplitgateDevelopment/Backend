@@ -1,26 +1,32 @@
-import Route from "../core/Route";
-import { Request, Response, Router } from "express";
-import messages from '../assets/json/messages.json';
+import { Hono } from 'hono';
+import messages from '@assets/json/messages.json';
 
-const router = Router();
+import { upgradeWebSocket } from '@/ws';
+import onOpen from '@/ws/events/open';
+import onClose from '@/ws/events/close';
+import onError from '@/ws/events/error';
+import onMessage from '@/ws/events/message';
 
-router.get('/v1/messages', (req: Request, res: Response) => {
-    return res.status(200).json(messages);
+const app = new Hono().basePath('/lobby/');
+
+app.get('/', 
+  upgradeWebSocket(() => ({
+    onOpen,
+    onClose,
+    onError,
+    onMessage,
+  })))
+
+app.get('/v1/messages', (c) => {
+  return c.json(messages, 200);
 });
 
-router.get('/v1/public/player/namespaces/splitgate/users/me/blocked', (req: Request, res: Response) => {
-    return res.status(200).json({
-        data: [],
-    });
+app.get('/v1/public/player/namespaces/splitgate/users/me/blocked', (c) => {
+  return c.json({ data: [] }, 200);
 });
 
-router.get('/v1/public/player/namespaces/splitgate/users/me/blocked-by', (req: Request, res: Response) => {
-    return res.status(200).json({
-        data: [],
-    });
+app.get('/v1/public/player/namespaces/splitgate/users/me/blocked-by', (c) => {
+  return c.json({ data: [] }, 200);
 });
 
-export default new Route({
-    url: '/lobby',
-    router,
-})
+export default app;

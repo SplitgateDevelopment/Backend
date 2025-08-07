@@ -1,25 +1,16 @@
-import Route from "../core/Route";
-import { Request, Response, Router } from "express";
-import servers from "../assets/json/servers.json";
-import { server } from "../types/Game";
+import { Hono } from 'hono';
+import servers from '@assets/json/servers.json';
+import { server } from '@/types/Game';
 
-const router = Router();
+const app = new Hono().basePath('/qosm/public/qos');
 
-router.get('/', (req: Request, res: Response) => {
-    const data: server[] = [];
-    servers.forEach((server) => {
-        data.push({
-            last_update: new Date().toISOString(),
-            ...server
-        });
-    });
+app.get('/', (c) => {
+  const data: server[] = servers.map((s) => ({
+    last_update: new Date().toISOString(),
+    ...s,
+  }));
 
-    return res.status(200).json({
-        servers: data,
-    });
+  return c.json({ servers: data }, 200);
 });
 
-export default new Route({
-    url: '/qosm/public/qos',
-    router,
-})
+export default app;

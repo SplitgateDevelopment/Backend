@@ -1,41 +1,33 @@
-import Route from "../core/Route";
-import { Request, Response, Router } from "express";
-import Utils from '../core/Utils';
+import { Hono } from 'hono';
+import { randomString } from '../lib/utils';
 
-const router = Router();
+const app = new Hono().basePath('/iam/v3/public/namespaces/splitgate');
 
-router.post('/platforms/steam/users', (req: Request, res: Response) => {
-    return res.status(200).json({
-        "userIdPlatforms":
-        [
-            {
-                "userId": Utils.randomString(15),
-                "platformUserId": Utils.randomString(10),
-                "platformId": "steam"
-            }
-        ]
-    });
+app.post('/platforms/steam/users', (c) => {
+  return c.json({
+    userIdPlatforms: [
+      {
+        userId: randomString(15),
+        platformUserId: randomString(10),
+        platformId: 'steam',
+      },
+    ],
+  }, 200);
 });
 
-router.post('/users/bulk/basic', (req: Request, res: Response) => {
-    //const hostname = req.headers.host;
-    return res.status(200).json({
-        "data":
-        [
-            {
-                "userId": Utils.randomString(15),
-                "displayName": "Dev Friend",
-                "avatarUrl": `https://github.githubassets.com/images/icons/emoji/trollface.png`,
-                "platformUserIds":
-                {
-                    "steam": Utils.randomString(10)
-                }
-            }
-        ]
-    });
+app.post('/users/bulk/basic', (c) => {
+  return c.json({
+    data: [
+      {
+        userId: randomString(15),
+        displayName: 'Dev Friend',
+        avatarUrl: `https://github.githubassets.com/images/icons/emoji/trollface.png`,
+        platformUserIds: {
+          steam: randomString(10),
+        },
+      },
+    ],
+  }, 200);
 });
 
-export default new Route({
-    url: '/iam/v3/public/namespaces/splitgate',
-    router,
-})
+export default app;

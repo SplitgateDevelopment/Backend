@@ -1,20 +1,16 @@
-import Route from "../core/Route";
-import { Request, Response, Router } from "express";
-import config from "../config";
+import { Hono } from 'hono';
 
-const router = Router();
+const app = new Hono().basePath('/ugc/v1/public/namespaces/splitgate/maps');
 
-router.get('/metadata/all', (req: Request, res: Response) => {
-    return res.status(200).json({
-        maps_metadata: {}
-    });
+app.get('/metadata/all', (c) => {
+  return c.json({
+    maps_metadata: {},
+  }, 200);
 });
 
-router.get('/sharecodes/:code', (req: Request, res: Response) => {
-    
+app.get('/sharecodes/:code', (c) => {
+  const { code } = c.req.param();
+  return c.json({ message: `Sharecode: ${code}` }, 200);
 });
 
-export default new Route({
-    url: '/ugc/v1/public/namespaces/splitgate/maps/',
-    router,
-})
+export default app;

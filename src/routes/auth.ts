@@ -1,9 +1,6 @@
-import Route from "../core/Route";
-import { Request, Response, Router } from "express";
-import config from "../config";
+import { Hono } from 'hono'
+import config from "@/config";
 const { username, ids, roleId } = config.userConfig;
-
-const router = Router();
 const loginData = {
     "access_token": 'access_token',
     "bans":[],
@@ -32,19 +29,10 @@ const loginData = {
     "xuid": ""
 };
 
-router.post('/oauth/platforms/steam/token', (req: Request, res: Response) => {
-    return res.status(200).json(loginData);
-});
+const app = new Hono().basePath('/iam/v3')
 
-router.post('/oauth/token', (req: Request, res: Response) => {
-    return res.status(200).json(loginData);
-});
+app.post('/oauth/platforms/:platform/token',  (c) => c.json(loginData, 200));
+app.post('/oauth/token',  (c) => c.json(loginData, 200));
+app.post('/logout', (c) => c.body(null, 204));
 
-router.post('/logout', (req: Request, res: Response) => {
-    return res.status(204).end();
-});
-
-export default new Route({
-    url: '/iam/v3',
-    router,
-})
+export default app

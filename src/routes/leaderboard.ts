@@ -1,23 +1,20 @@
-import Route from "../core/Route";
-import { Request, Response, Router } from "express";
-import Utils from "../core/Utils";
+import { randomInt, randomString } from '@/lib/utils';
+import { Hono } from 'hono';
 
-const router = Router();
+const app = new Hono().basePath('/social/public/namespaces/splitgate/leaderboard');
 
-router.get('/', (req: Request, res: Response) => {
-    return res.status(200).json([{
-        "compositeUserId":
-        {
-            "userId": Utils.randomString(10),
-            "platform": "STEAM",
-            "platformId": Utils.randomString(10),
-        },
-        "value": Utils.randomInt(1, 9999),
-        "displayName": "SplitgateDevelopment"
-    }]);
+app.get('/', (c) => {
+  const response = [{
+    compositeUserId: {
+      userId: randomString(10),
+      platform: 'STEAM',
+      platformId: randomString(10),
+    },
+    value: randomInt(1, 9999),
+    displayName: 'SplitgateDevelopment',
+  }];
+
+  return c.json(response, 200);
 });
 
-export default new Route({
-    url: '/social/public/namespaces/splitgate/leaderboard',
-    router,
-})
+export default app;

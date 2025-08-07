@@ -1,39 +1,40 @@
-import Route from "../core/Route";
-import { Request, Response, Router } from "express";
-import config from "../config";
+import { Hono } from 'hono';
+import config from '@/config';
 
-const router = Router();
+const app = new Hono().basePath('/lobby/v1/public/party/namespaces/splitgate/parties');
 const { ids } = config.userConfig;
 
-let attributes = {};
+let attributes: any = {};
 
-router.get('/:id', (req: Request, res: Response) => {
-    return res.status(200).json({
-        partyId: req.params.id,
-        namespace: 'splitgate',
-        leader: ids?.userId?.toString() || '',
-        members: [ids?.userId?.toString() || ''],
-        invitees: [],
-        custom_attribute: attributes,
-        updatedAt: new Date().getTime(),
-    });
+app.get('/:id', (c) => {
+  const id = c.req.param('id');
+
+  return c.json({
+    partyId: id,
+    namespace: 'splitgate',
+    leader: ids?.userId?.toString() || '',
+    members: [ids?.userId?.toString() || ''],
+    invitees: [],
+    custom_attribute: attributes,
+    updatedAt: Date.now(),
+  });
 });
 
-router.put('/:id/attributes', (req: Request, res: Response) => {
-    attributes = req.body.custom_attribute;
+app.put('/:id/attributes', async (c) => {
+  const id = c.req.param('id');
+  const body = await c.req.json();
 
-    return res.status(200).json({
-        partyId: req.params.id,
-        namespace: 'splitgate',
-        leader: ids?.userId?.toString() || '',
-        members: [ids?.userId?.toString() || ''],
-        invitees: [],
-        custom_attribute: attributes,
-        updatedAt: req.body.updatedAt,
-    });
+  attributes = body.custom_attribute;
+
+  return c.json({
+    partyId: id,
+    namespace: 'splitgate',
+    leader: ids?.userId?.toString() || '',
+    members: [ids?.userId?.toString() || ''],
+    invitees: [],
+    custom_attribute: attributes,
+    updatedAt: body.updatedAt,
+  });
 });
 
-export default new Route({
-    url: '/lobby/v1/public/party/namespaces/splitgate/parties/',
-    router,
-})
+export default app;

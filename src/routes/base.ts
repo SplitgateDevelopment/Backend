@@ -1,12 +1,11 @@
-import Route from "../core/Route";
-import { Request, Response, Router } from "express";
-import pkg from "../package.json";
-import { feedItem } from "../types/Game";
+import pkg from "@/../package.json";
+import { feedItem } from "@/types/Game";
 
-const router = Router();
+import { Hono } from 'hono'
 
-router.get('/streamStatus', (req: Request, res: Response) => {
-    return res.status(200).json({
+const app = new Hono().basePath('/basic/public/namespaces/splitgate/')
+
+app.get('/streamStatus',  (c) => c.json({
 	    "imageUrl": `https://github.githubassets.com/images/icons/emoji/trollface.png`,
         "actionTitle":
         {
@@ -28,10 +27,9 @@ router.get('/streamStatus', (req: Request, res: Response) => {
         },
         "actionValue": "https://www.github.com/splitgatedevelopment/backend",
         "isLive": true
-    });
-});
+    }, 200));
 
-router.get('/feedStatus', (req: Request, res: Response) => {
+app.get('/feedStatus',  (c) => {
     const images = [
         "https://github.githubassets.com/images/icons/emoji/trollface.png",
         "https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/nerd-face_1f913.png",
@@ -63,10 +61,7 @@ router.get('/feedStatus', (req: Request, res: Response) => {
         }
     ));
 
-    return res.status(200).json(feed);
+    return c.json(feed, 200)
 });
 
-export default new Route({
-    url: '/basic/public/namespaces/splitgate/',
-    router,
-})
+export default app

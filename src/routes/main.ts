@@ -1,20 +1,14 @@
-import Route from "../core/Route";
-import { Request, Response, Router } from "express";
-import config from "../config";
+import { Hono } from 'hono';
+import config from '@/config';
 
-const router = Router();
+const app = new Hono().basePath('/');
 
-router.get('/', (req: Request, res: Response) => {
-    return res.status(200).json({
-        message: 'Alive! 🛰️'
-    });
+app.get('/', (c) => {
+  return c.json({ message: 'Alive! 🛰️' }, 200);
 });
 
-router.get('/config', (req: Request, res: Response) => {
-    return res.json(config || {});
+app.get('/config', (c) => {
+  return c.json(config, 200);
 });
 
-export default new Route({
-    url: '/',
-    router,
-})
+export default app;
