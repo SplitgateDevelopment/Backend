@@ -4,6 +4,7 @@ from mitmproxy import http, connection, ctx, tls
 from abc import ABC, abstractmethod
 from enum import Enum
 from mitmproxy.utils import human
+
 USE_SSL = False
 REMOTE_HOST = "localhost"
 REMOTE_PORT = 5005

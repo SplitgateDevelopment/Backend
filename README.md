@@ -4,41 +4,39 @@
 **⚠️ This repo is still in development, therefore you may run in some errors**
 
 ## Installation
-  • Download and install [Node.js](https://nodejs.org/en/download/)
+- Download and install [Bun](https://bun.sh/)
   
-  • Download and extract the repo or git clone it
+- Download and extract the repo or git clone it
   
-  • Open the terminal and go into the unzipped directory
+- Open the terminal and go into the unzipped directory
   
-  • Type `npm install` and wait
+- Type `bun install` and wait
   
 ## Usage
-  • Fill the values in config.ts
-  
-  • Build via the `npx tsc` command
-  
-  • Make sure every file from `/assets/json/` is in `/dist/assets/json`, if not copy them
-  
-  • **Proxy**
-  
-  ∘ Use this **[fiddler](https://www.telerik.com/download/fiddler) rule:**
+- Fill the values in config.ts
+
+- **Start one of the two proxies**
+
+  - Use this **[fiddler](https://www.telerik.com/download/fiddler) auto responder rule:**
+    ```
+    Match: regex:(.*)splitgate.accelbyte.io/(.*)
+    Action: http://localhost:5005/$2
+    ```
+      
+  ---
     
-      Match: regex:(.*)splitgate.accelbyte.io/(.*)
-      Action: http://localhost:{portOfTheExpressServer}/$2
-  OR
-    
-  ∘ Set proxy in the settings app to `127.0.0.1:8080`
- 
-  ∘ Run proxy.py via the `mitmdump -s proxy.py -k` **([mitmproxy](https://mitmproxy.org/) is required)**
-  
-  • Run the server via the `node .` command
-  
-  • Profit
+  - Set proxy in the windows settings app to `127.0.0.1:8080`
+
+  - Run proxy.py via the `mitmdump -s scripts/proxy.py -k` **([mitmproxy](https://mitmproxy.org/) is required)**
+
+- Run the server via the `bun .` command
+
+- Profit
 
 ## How To
 
-  • To update cosmetics:
+- To update cosmetics:
 
-  - Via **[FModel](https://fmodel.app)**, use "Save Folder's Packages Properties" feature on `PortalWars/Content` folder, then run `node scripts/fillCosmeticsFromFModel.js`
+  - Via **[FModel](https://fmodel.app)**, use "Save Folder's Packages Properties" feature on `PortalWars/Content` folder, then run `bun scripts/fillCosmeticsFromFModel.js`
     
-  - Sniff http calls made to sections and items, merge them together in `sections.json` and `items.json` files placed in `scripts/bin`, then run `node scripts/updateCosmeticsFromItems.js`
+  - Sniff http calls made to sections and items, merge them together in `sections.json` and `items.json` files placed in `scripts/bin`, then run `bun scripts/updateCosmeticsFromItems.js`
