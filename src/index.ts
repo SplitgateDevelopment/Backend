@@ -1,12 +1,7 @@
-import { Hono } from 'hono'
-import type { BunWebSocketData } from 'hono/bun';
-import { websocket } from './ws';
+import { Hono } from "hono";
+import type { BunWebSocketData } from "hono/bun";
 import { env } from "@/lib/env";
-
 import { middlewares } from "@/middlewares";
-import onError from './middlewares/error';
-import notFound from './middlewares/not-found';
-
 import auth from "@/routes/auth";
 import base from "@/routes/base";
 import gameTelemetry from "@/routes/game-telemetry";
@@ -25,36 +20,39 @@ import socialUser from "@/routes/social-user";
 import ugc from "@/routes/ugc";
 import userData from "@/routes/user-data";
 import views from "@/routes/views";
+import onError from "./middlewares/error";
+import notFound from "./middlewares/not-found";
+import { websocket } from "./ws";
 
-const app = new Hono()
+const app = new Hono();
 
-app.use(...middlewares)
+app.use(...middlewares);
 
-app.onError(onError)
-app.notFound(notFound)
+app.onError(onError);
+app.notFound(notFound);
 
-app.route('/', auth);
-app.route('/', base);
-app.route('/', gameTelemetry);
-app.route('/', items);
-app.route('/', leaderboard);
-app.route('/', lobby);
-app.route('/', main);
-app.route('/', parties);
-app.route('/', profile);
-app.route('/', publicData);
-app.route('/', qos);
-app.route('/', search);
-app.route('/', seasonpass);
-app.route('/', sessionManager);
-app.route('/', socialUser);
-app.route('/', ugc);
-app.route('/', userData);
-app.route('/', views);
+app.route("/", auth);
+app.route("/", base);
+app.route("/", gameTelemetry);
+app.route("/", items);
+app.route("/", leaderboard);
+app.route("/", lobby);
+app.route("/", main);
+app.route("/", parties);
+app.route("/", profile);
+app.route("/", publicData);
+app.route("/", qos);
+app.route("/", search);
+app.route("/", seasonpass);
+app.route("/", sessionManager);
+app.route("/", socialUser);
+app.route("/", ugc);
+app.route("/", userData);
+app.route("/", views);
 
 export default {
-    port: env.PORT,
-    reusePort: true,
-    fetch: app.fetch,
-    websocket,
-} satisfies Bun.ServeFunctionOptions<BunWebSocketData, {}>
+	port: env.PORT,
+	reusePort: true,
+	fetch: app.fetch,
+	websocket,
+} satisfies Bun.ServeFunctionOptions<BunWebSocketData, {}>;

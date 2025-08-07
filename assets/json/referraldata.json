@@ -1,155 +1,155 @@
 {
-  "namespace": "splitgate",
-  "hasData": true,
-  "refereeProgressionLevelThreshold": 10,
-  "maxProgressionLevel": 10,
-  "maxReferralPassLevel": 20,
-  "data": [
-    {
-      "id": 1,
-      "rewards": [
-        {
-          "type": "ITEM",
-          "item": {
-            "itemType": "CUSTOMIZATION",
-            "itemSku": "NameTag-NameTag_Recruiter"
-          },
-          "quantity": 1
-        }
-      ]
-    },
-    { "id": 2, "rewards": [{ "type": "DROP", "quantity": 1 }] },
-    {
-      "id": 3,
-      "rewards": [
-        {
-          "type": "ITEM",
-          "item": {
-            "itemType": "CUSTOMIZATION",
-            "itemSku": "Railgun-Railgun_Spicy"
-          },
-          "quantity": 1
-        }
-      ]
-    },
-    { "id": 4, "rewards": [{ "type": "DROP", "quantity": 1 }] },
-    {
-      "id": 5,
-      "rewards": [
-        {
-          "type": "ITEM",
-          "item": {
-            "itemType": "CUSTOMIZATION",
-            "itemSku": "Banner-Banner_CrazyEyes"
-          },
-          "quantity": 1
-        }
-      ]
-    },
-    { "id": 6, "rewards": [{ "type": "DROP", "quantity": 1 }] },
-    {
-      "id": 7,
-      "rewards": [
-        {
-          "type": "ITEM",
-          "item": {
-            "itemType": "CUSTOMIZATION",
-            "itemSku": "Armor-Character_Paladin_Horus"
-          },
-          "quantity": 1
-        }
-      ]
-    },
-    { "id": 8, "rewards": [{ "type": "DROP", "quantity": 1 }] },
-    {
-      "id": 9,
-      "rewards": [
-        {
-          "type": "ITEM",
-          "item": {
-            "itemType": "CUSTOMIZATION",
-            "itemSku": "PlasmaRifle-PlasmaRifle_Spicy"
-          },
-          "quantity": 1
-        }
-      ]
-    },
-    { "id": 10, "rewards": [{ "type": "DROP", "quantity": 1 }] },
-    {
-      "id": 11,
-      "rewards": [
-        {
-          "type": "ITEM",
-          "item": { "itemType": "CUSTOMIZATION", "itemSku": "DMR-DMR_Spicy" },
-          "quantity": 1
-        }
-      ]
-    },
-    { "id": 12, "rewards": [{ "type": "DROP", "quantity": 1 }] },
-    {
-      "id": 13,
-      "rewards": [
-        {
-          "type": "ITEM",
-          "item": {
-            "itemType": "CUSTOMIZATION",
-            "itemSku": "BattleRifle-BattleRifle_Spicy"
-          },
-          "quantity": 1
-        }
-      ]
-    },
-    { "id": 14, "rewards": [{ "type": "DROP", "quantity": 1 }] },
-    {
-      "id": 15,
-      "rewards": [
-        {
-          "type": "ITEM",
-          "item": {
-            "itemType": "CUSTOMIZATION",
-            "itemSku": "Jetpack-Jetpack_Paladin_Raven"
-          },
-          "quantity": 1
-        }
-      ]
-    },
-    { "id": 16, "rewards": [{ "type": "DROP", "quantity": 1 }] },
-    {
-      "id": 17,
-      "rewards": [
-        {
-          "type": "ITEM",
-          "item": {
-            "itemType": "CUSTOMIZATION",
-            "itemSku": "Pistol-Pistol_Spicy"
-          },
-          "quantity": 1
-        }
-      ]
-    },
-    { "id": 18, "rewards": [{ "type": "DROP", "quantity": 1 }] },
-    {
-      "id": 19,
-      "rewards": [
-        {
-          "type": "ITEM",
-          "item": { "itemType": "CUSTOMIZATION", "itemSku": "Bat-Bat_Spicy" },
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "rewards": [
-        {
-          "type": "ITEM",
-          "item": {
-            "itemType": "CUSTOMIZATION",
-            "itemSku": "AssaultRifle-AssaultRifle_Zeus"
-          },
-          "quantity": 1
-        }
-      ]
-    }
-  ]
+	"namespace": "splitgate",
+	"hasData": true,
+	"refereeProgressionLevelThreshold": 10,
+	"maxProgressionLevel": 10,
+	"maxReferralPassLevel": 20,
+	"data": [
+		{
+			"id": 1,
+			"rewards": [
+				{
+					"type": "ITEM",
+					"item": {
+						"itemType": "CUSTOMIZATION",
+						"itemSku": "NameTag-NameTag_Recruiter"
+					},
+					"quantity": 1
+				}
+			]
+		},
+		{ "id": 2, "rewards": [{ "type": "DROP", "quantity": 1 }] },
+		{
+			"id": 3,
+			"rewards": [
+				{
+					"type": "ITEM",
+					"item": {
+						"itemType": "CUSTOMIZATION",
+						"itemSku": "Railgun-Railgun_Spicy"
+					},
+					"quantity": 1
+				}
+			]
+		},
+		{ "id": 4, "rewards": [{ "type": "DROP", "quantity": 1 }] },
+		{
+			"id": 5,
+			"rewards": [
+				{
+					"type": "ITEM",
+					"item": {
+						"itemType": "CUSTOMIZATION",
+						"itemSku": "Banner-Banner_CrazyEyes"
+					},
+					"quantity": 1
+				}
+			]
+		},
+		{ "id": 6, "rewards": [{ "type": "DROP", "quantity": 1 }] },
+		{
+			"id": 7,
+			"rewards": [
+				{
+					"type": "ITEM",
+					"item": {
+						"itemType": "CUSTOMIZATION",
+						"itemSku": "Armor-Character_Paladin_Horus"
+					},
+					"quantity": 1
+				}
+			]
+		},
+		{ "id": 8, "rewards": [{ "type": "DROP", "quantity": 1 }] },
+		{
+			"id": 9,
+			"rewards": [
+				{
+					"type": "ITEM",
+					"item": {
+						"itemType": "CUSTOMIZATION",
+						"itemSku": "PlasmaRifle-PlasmaRifle_Spicy"
+					},
+					"quantity": 1
+				}
+			]
+		},
+		{ "id": 10, "rewards": [{ "type": "DROP", "quantity": 1 }] },
+		{
+			"id": 11,
+			"rewards": [
+				{
+					"type": "ITEM",
+					"item": { "itemType": "CUSTOMIZATION", "itemSku": "DMR-DMR_Spicy" },
+					"quantity": 1
+				}
+			]
+		},
+		{ "id": 12, "rewards": [{ "type": "DROP", "quantity": 1 }] },
+		{
+			"id": 13,
+			"rewards": [
+				{
+					"type": "ITEM",
+					"item": {
+						"itemType": "CUSTOMIZATION",
+						"itemSku": "BattleRifle-BattleRifle_Spicy"
+					},
+					"quantity": 1
+				}
+			]
+		},
+		{ "id": 14, "rewards": [{ "type": "DROP", "quantity": 1 }] },
+		{
+			"id": 15,
+			"rewards": [
+				{
+					"type": "ITEM",
+					"item": {
+						"itemType": "CUSTOMIZATION",
+						"itemSku": "Jetpack-Jetpack_Paladin_Raven"
+					},
+					"quantity": 1
+				}
+			]
+		},
+		{ "id": 16, "rewards": [{ "type": "DROP", "quantity": 1 }] },
+		{
+			"id": 17,
+			"rewards": [
+				{
+					"type": "ITEM",
+					"item": {
+						"itemType": "CUSTOMIZATION",
+						"itemSku": "Pistol-Pistol_Spicy"
+					},
+					"quantity": 1
+				}
+			]
+		},
+		{ "id": 18, "rewards": [{ "type": "DROP", "quantity": 1 }] },
+		{
+			"id": 19,
+			"rewards": [
+				{
+					"type": "ITEM",
+					"item": { "itemType": "CUSTOMIZATION", "itemSku": "Bat-Bat_Spicy" },
+					"quantity": 1
+				}
+			]
+		},
+		{
+			"id": 20,
+			"rewards": [
+				{
+					"type": "ITEM",
+					"item": {
+						"itemType": "CUSTOMIZATION",
+						"itemSku": "AssaultRifle-AssaultRifle_Zeus"
+					},
+					"quantity": 1
+				}
+			]
+		}
+	]
 }

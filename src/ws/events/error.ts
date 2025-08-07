@@ -1,8 +1,8 @@
-import { WebSocketEvent } from "@/types/WS";
+import type { WebSocketEvent } from "@/types/WS";
 
-const onError: WebSocketEvent<'onError'> = (e) => {
-    console.error(e)
-    console.log(`[WSS]`, `error ❌`);
-}
+const onError: WebSocketEvent<"onError"> = (e) => {
+	console.error(e);
+	console.log("[WSS]", "error ❌");
+};
 
-export default onError
+export default onError;

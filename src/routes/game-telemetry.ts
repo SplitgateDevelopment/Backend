@@ -1,7 +1,7 @@
-import { Hono } from 'hono'
+import { Hono } from "hono";
 
-const app = new Hono().basePath('/game-telemetry/')
+const app = new Hono().basePath("/game-telemetry/");
 
-app.post('/v1/protected/events', (c) => c.body(null, 204));
+app.post("/v1/protected/events", (c) => c.body(null, 204));
 
-export default app
+export default app;

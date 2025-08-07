@@ -1,31 +1,31 @@
 {
-  "name": "@splitgatedevelopment/backend",
-  "version": "1.0.0",
-  "description": "Private server that emulates accelbyte's backend used by splitgate",
-  "main": "src/index.ts",
-  "private": true,
-  "scripts": {
-    "start": "bun .",
-    "dev": "bun --hot .",
+	"name": "@splitgatedevelopment/backend",
+	"version": "1.0.0",
+	"description": "Private server that emulates accelbyte's backend used by splitgate",
+	"main": "src/index.ts",
+	"private": true,
+	"scripts": {
+		"start": "bun .",
+		"dev": "bun --hot .",
 		"lint": "biome check .",
 		"lint:fix": "biome check . --write"
-  },
-  "keywords": [
-    "splitgate",
-    "backend",
-    "api"
-  ],
-  "author": "SplitgateDevelopment",
-  "packageManager": "bun@1.12.0",
-  "license": "MIT",
-  "devDependencies": {
-    "@biomejs/biome": "2.1.4",
-    "@types/bun": "latest",
-    "typescript": "^5.9.2"
-  },
-  "dependencies": {
-    "hono": "^4.8.12",
-    "ws": "^8.18.3",
-    "zod": "^4.0.15"
-  }
+	},
+	"keywords": [
+		"splitgate",
+		"backend",
+		"api"
+	],
+	"author": "SplitgateDevelopment",
+	"packageManager": "bun@1.12.0",
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "2.1.4",
+		"@types/bun": "latest",
+		"typescript": "^5.9.2"
+	},
+	"dependencies": {
+		"hono": "^4.8.12",
+		"ws": "^8.18.3",
+		"zod": "^4.0.15"
+	}
 }

@@ -1,6 +1,6 @@
 import type { ErrorHandler } from "hono";
 import { HTTPException } from "hono/http-exception";
-import { prettifyError, $ZodError } from "zod/v4/core";
+import { $ZodError, prettifyError } from "zod/v4/core";
 import { env } from "@/lib/env";
 import type { Env } from "@/types/env";
 
