@@ -1,10 +1,10 @@
 import express, { Application, NextFunction, Request, Response } from "express";
 import { readdirSync } from 'fs';
 import { join } from "path";
-import { Config } from "../typings/Config";
+import { Config } from "../types/Config";
 import Route from "./Route";
 import WebSocket from 'ws';
-import { eventHandler } from "../typings/WS";
+import { eventHandler } from "../types/WS";
 import http from 'http';
 
 class Server {
@@ -35,7 +35,7 @@ class Server {
     async #routes() {
         const routesPath = join(__dirname, '..', 'routes');
         const files = readdirSync(routesPath)
-        .filter(file => file.endsWith('.js'));
+        .filter(file => file.endsWith('.js') || file.endsWith('.ts'));
 
         for (const file of files) {
             const { default: route } = await import(join(routesPath, file)) as { default: Route };
